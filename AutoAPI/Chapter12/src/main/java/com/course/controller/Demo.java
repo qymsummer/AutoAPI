@@ -24,6 +24,7 @@ public class Demo {
     public int getUserCount(){
 
         return template.selectOne("getUserCount");
+
     }
 
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
