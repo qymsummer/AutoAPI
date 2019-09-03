@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Q9NAlmGpDzdE5GtCDQsnsd3rLy" />
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter11/src/main/resources/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
+      <recent name="C:\软件\AutoAPI\Chapter9" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="D:\AutoAPI\Chapter9\src" />
+      <recent name="D:\AutoAPI\Chapter7" />
+      <recent name="D:\AutoAPI\Chapter6\src\main\java\com\tester\extend\demo" />
+      <recent name="D:\AutoAPI\Chapter6\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Application (2)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.Application" />
+      <module name="Chapter11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.Application" />
+      <module name="Chapter12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="Chapter10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.SampleController" />
+      <module name="Chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application (2)" />
+        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.SampleController" />
+        <item itemvalue="TestNG.MyCookiesForPost" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="" />
+      <created>1564837081040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564837081040</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyCookiesForGet_testGetCookies - 2019.08.25 at 14h 53m 13s.xml">
+      <configuration name="MyCookiesForGet.testGetCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet_testGetWithCookies - 2019.08.25 at 15h 28m 28s.xml">
+      <configuration name="MyCookiesForGet.testGetWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet - 2019.08.25 at 15h 32m 14s.xml">
+      <configuration name="MyCookiesForGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet - 2019.08.25 at 15h 34m 38s.xml">
+      <configuration name="MyCookiesForGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet_(1) - 2019.08.25 at 15h 35m 39s.xml">
+      <configuration name="MyCookiesForGet (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet - 2019.08.25 at 15h 45m 04s.xml">
+      <configuration name="MyCookiesForGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet - 2019.08.25 at 15h 49m 07s.xml">
+      <configuration name="MyCookiesForGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet - 2019.08.25 at 15h 49m 48s.xml">
+      <configuration name="MyCookiesForGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForPost_testPostCookies - 2019.08.25 at 16h 40m 58s.xml">
+      <configuration name="MyCookiesForPost.testPostCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForPost - 2019.08.25 at 16h 47m 08s.xml">
+      <configuration name="MyCookiesForPost" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
