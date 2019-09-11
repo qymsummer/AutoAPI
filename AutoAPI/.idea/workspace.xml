@@ -8,6 +8,50 @@
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/META-INF/APITEST.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.AddProduct.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.Login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.UpdateProduct.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/供需平台测试测试用例.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/供需平台测试测试用例.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/供需平台测试测试用例.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire/surefire6673525015806204571tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire/surefire7251178320641134500tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,20 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.other.Test1" />
-      <module name="APITEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Login.loginCase">
     <configuration name="C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" />
@@ -156,6 +187,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.demo.MyCookiesForPost" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpdateProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
@@ -175,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.Login.loginCase" />
+        <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.MyCookiesForPost" />
         <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.UpdateProduct" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
