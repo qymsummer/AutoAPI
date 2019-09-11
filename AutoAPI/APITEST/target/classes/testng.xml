@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="用户管理系统测试套件" parallel="tests" thread-count="1">
-    <test name="用户管理系统测试用例">
+<suite name="供需平台测试套件" parallel="tests" thread-count="1">
+    <test name="供需平台测试测试用例">
         <classes>
-
-            <class name="com.course.testcase.Login">
+            <class name="com.course.bvtcase.Login">
                 <methods>
                     <include name="loginCase"/>
                 </methods>
             </class>
-            <class name="com.course.testcase.AddProduct">
+            <class name="com.course.bvtcase.AddProduct">
                 <methods>
                     <include name="addProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.UpdateProduct">
+                <methods>
+                    <include name="updateProduct"/>
                 </methods>
             </class>
         </classes>
