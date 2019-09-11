@@ -6,53 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/META-INF/APITEST.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.AddProduct.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.Login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.UpdateProduct.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/供需平台测试测试用例.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/供需平台测试测试用例.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/供需平台测试测试用例.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire/surefire6673525015806204571tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/surefire/surefire7251178320641134500tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
