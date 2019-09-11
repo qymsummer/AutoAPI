@@ -5,6 +5,6 @@ package com.course.model;
  */
 public enum InterfaceName {
 
-    LOGIN,ADDPRODUCT,UPDATEPRODUCT
+    LOGIN,ADDPRODUCT
 
 }

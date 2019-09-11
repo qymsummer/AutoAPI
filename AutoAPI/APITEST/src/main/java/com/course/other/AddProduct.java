@@ -34,6 +34,8 @@ public class AddProduct {
         DefaultHttpClient client = new DefaultHttpClient();
         HttpPost request = new HttpPost(TestConfig.addProductUrl);
         List<NameValuePair> params=new ArrayList<NameValuePair>();
+        String fullProvince = "true";
+
         params.add(new BasicNameValuePair("repaymentMeansIds","9"));
         params.add(new BasicNameValuePair("loanUseIds","1"));
         params.add(new BasicNameValuePair("guaranteeMeansIds","5"));
