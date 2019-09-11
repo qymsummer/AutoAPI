@@ -57,7 +57,7 @@ public class UpdateProduct {
         map.put("createTime","2019-09-11 12,25,45");
         map.put("fullProvince",false);
         map.put("applyRequirementIds",new String[] {});
-        map.put("enterpriseAccessRequirementList",new String[] {"code","11"});
+        map.put("enterpriseAccessRequirementList",new String[] {});
         map.put("areaIds",new String[]{"1"});
         //null作为value时，转换成json后不会保存
         JSONObject params = new JSONObject(map);
@@ -75,7 +75,7 @@ public class UpdateProduct {
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         org.json.JSONObject resultJson = new JSONObject(result);
-        String  success = (String) resultJson.get("code");//判断
+        int  success = (int) resultJson.get("code");//判断
         Assert.assertEquals(0,success);
         System.out.println(result);
     }

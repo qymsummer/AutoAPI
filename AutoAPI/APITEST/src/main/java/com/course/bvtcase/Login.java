@@ -50,7 +50,8 @@ public class Login {
         HttpResponse response = TestConfig.client.execute (httpPost);
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        org.json.JSONObject resultJson = new JSONObject(result);
+        System.out.println(result);
+        JSONObject resultJson = new JSONObject (result);
         String success = (String) resultJson.get("data");
         //判断
         Assert.assertEquals("登录成功",success);

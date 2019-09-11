@@ -11,298 +11,16 @@
       <change afterPath="$PROJECT_DIR$/../.idea/GITMASTER.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/apitest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_7_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_7_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_25_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/APITEST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/AddProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/LoginAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/MyCookiesForPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/UpdateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/resources/apicasedata/addproduct.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/APITEST-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/apicasedata/addproduct.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/other/AddProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/other/LoginAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/other/MyCookiesForPost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/other/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.AddProduct.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.Login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/junitreports/TEST-com.course.bvtcase.UpdateProduct.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/old/供需平台测试套件/供需平台测试测试用例.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/供需平台测试测试用例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire-reports/供需平台测试套件/供需平台测试测试用例.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire/surefire6673525015806204571tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/target/surefire/surefire7251178320641134500tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/META-INF/Chapter13.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/cases/AddUserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/cases/GetUserInfoListTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/cases/GetUserInfoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/cases/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/cases/UpateUserInfotest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/config/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/config/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/config/TestConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/AddUserCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/GetUserInfoCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/GetUserListCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/LoginCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/UpateUserInfoCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/com/course/utils/DatabaseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/dataBaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/mapper/SQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13/target/classes/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/src/main/java/com/course/AddUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/src/main/java/com/course/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/com/course/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/com/course/config/SwiggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/com/course/controller/UserManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/com/course/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter15/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/Chapter16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/java/com/course/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/java/com/course/config/SwiggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/java/com/course/controller/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/java/com/course/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/com/course/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/com/course/config/SwiggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/com/course/controller/UserManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/com/course/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter16/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/Chapter17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/cases/AddUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/cases/GetUserInfoListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/cases/GetUserInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/cases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/cases/UpdateUserInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/config/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/AddUserCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/GetUserInfoCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/GetUserListCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/LoginCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/UpdateUserInfoCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/java/com/course/utils/DatabaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/resources/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/resources/mapper/SQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/cases/AddUserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/cases/GetUserInfoListTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/cases/GetUserInfoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/cases/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/cases/UpdateUserInfoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/config/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/config/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/config/TestConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/AddUserCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/GetUserInfoCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/GetUserListCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/LoginCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/UpdateUserInfoCase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/com/course/utils/DatabaseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/mapper/SQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/target/classes/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter17/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyCookiesForPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9/src/target/classes/com/course/httpclient/demo/MyCookiesForPost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mylog.log.2019-09-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/mylog.log.2019-09-04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/userManager.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/userManager.log.2019-09-04" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AutoAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/controller/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/src/main/java/com/course/controller/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/target/classes/com/course/controller/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/target/classes/com/course/controller/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/Chapter13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/Chapter13.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/cases/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/cases/AddUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/cases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/model/GetUserInfoCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/model/GetUserInfoCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/model/GetUserListCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/model/GetUserListCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/utils/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/java/com/course/utils/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/main/resources/dataBaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/main/resources/dataBaseConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/Chapter14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/Chapter15.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/java/com/course/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/java/com/course/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/java/com/course/config/SwiggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/java/com/course/config/SwiggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/java/com/course/controller/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/java/com/course/controller/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/java/com/course/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/java/com/course/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/resources/mapper/mysql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/src/Chapter9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/src/Chapter9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9/src/target/classes/com/course/httpclient/cookies/MyCookiesForPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/src/target/classes/com/course/httpclient/cookies/MyCookiesForPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mylog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -355,10 +73,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
-      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
-      <recent name="C:\软件\AutoAPI\Chapter9" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GITMASTER\AutoAPI" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
+      <recent name="C:\GITMASTER\AutoAPI\Chapter17\src\main\resources" />
+      <recent name="C:\GITMASTER\AutoAPI\Chapter15\src\main\java\com\course" />
+      <recent name="C:\GITMASTER\AutoAPI\Chapter16\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.course.other" />
@@ -367,12 +87,10 @@
       <recent name="com.course.httpclient.demo" />
       <recent name="com.course.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter17\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter15\src\main\java\com\course" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter16\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter16\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
+      <recent name="C:\软件\AutoAPI\Chapter9" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -416,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateProduct.updateProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
@@ -424,26 +142,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.UpdateProduct" />
-      <option name="METHOD_NAME" value="updateProduct" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.other9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.other9" />
-      <option name="MAIN_CLASS_NAME" value="com.course.other9.test1" />
+      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
+      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.Login" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -451,18 +151,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login.loginCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.other9.*" />
+          <option name="PATTERN" value="com.course.bvtcase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.other9" />
-      <option name="MAIN_CLASS_NAME" value="com.course.other9.test1" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
+      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.Login" />
+      <option name="METHOD_NAME" value="loginCase" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
+      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.UpdateProduct" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -472,10 +189,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.Login.loginCase" />
+        <item itemvalue="TestNG.UpdateProduct" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="TestNG.test1" />
-        <item itemvalue="TestNG.test1.test2" />
-        <item itemvalue="TestNG.UpdateProduct.updateProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567521165943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;日志&quot;">
+      <created>1568188575840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568188575841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
