@@ -1,6 +1,5 @@
 package com.course.utils;
 
-import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -16,7 +15,7 @@ public class DatabaseUtil {
 
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(reader);
         //sqlSession执行配置文件中的sql语句sqlSession.select....
-        SqlSession sqlSession = factory.openSession();
-        return sqlSession;
+        SqlSession session = factory.openSession();
+        return session;
     }
 }

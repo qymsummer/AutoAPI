@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.249 sec <<< FAILURE!
+updateProduct(com.course.bvtcase.UpdateProduct)  Time elapsed: 0.332 sec  <<< FAILURE!
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+	at com.course.bvtcase.UpdateProduct.updateProduct(UpdateProduct.java:78)
+

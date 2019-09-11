@@ -14,7 +14,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -24,6 +23,7 @@ public class MyCookiesForPost {
     private ResourceBundle bundle;
     //用来存储cookies信息的变量
     private CookieStore store;
+    /*
     @BeforeTest
     public void beforeTest(){
         bundle = ResourceBundle.getBundle ("application", Locale.CHINA);
@@ -49,7 +49,9 @@ public class MyCookiesForPost {
             String value = cookie.getValue();
         }
     }
-    @Test(dependsOnMethods = {"testGetCookies"})
+
+     */
+    @Test
     public void testPostCookies() throws IOException {
         String url = bundle.getString ("getWithPostCookies.url");
         //拼写测试地址
@@ -60,8 +62,9 @@ public class MyCookiesForPost {
         HttpPost post = new HttpPost(testUrl);
         //添加参数
         JSONObject param = new JSONObject ();
-        param.put("name","huhansan");
-        param.put("age","18");
+        param.put("userName","TLCB114567");
+        param.put("password","TLCB114567");
+        param.put("userType","1");
 
         //设置请求头信息 设置header
         post.setHeader ("content-type","application/json");
@@ -75,11 +78,12 @@ public class MyCookiesForPost {
         //执行post方法
         HttpResponse response = client.execute (post);
         //获取响应结果
-        result = EntityUtils.toString ( response.getEntity(),"utf-8");
+        result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println (result);
 
         //处理结果，就是判断返回结果是否符合预期
         //将返回的响应结果字符串转换成json对象
+        /*
         JSONObject resultJson = new JSONObject (result);
         //获取到结果值
         String success = (String) resultJson.get("huhansan");
@@ -87,5 +91,7 @@ public class MyCookiesForPost {
         //具体的判断返回结果的值
         Assert.assertEquals("success",success);
         Assert.assertEquals ("1",status );
+
+         */
     }
 }

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-供需平台测试套件">
+              <span class="suite-name border-failed">供需平台测试套件</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-供需平台测试套件">
+                    <span>C:\GITMASTER\AutoAPI\APITEST\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-供需平台测试套件">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-供需平台测试套件">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-供需平台测试套件">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-供需平台测试套件">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-供需平台测试套件">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-供需平台测试套件">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-供需平台测试套件" class="hide-methods failed suite-供需平台测试套件"> (hide)</a> <!-- hide-methods failed suite-供需平台测试套件 -->
+                      <a href="#" panel-name="suite-供需平台测试套件" class="show-methods failed suite-供需平台测试套件"> (show)</a> <!-- show-methods failed suite-供需平台测试套件 -->
+                    </span>
+                    <div class="method-list-content failed suite-供需平台测试套件">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-供需平台测试套件" title="com.course.bvtcase.UpdateProduct" hash-for-method="updateProduct">updateProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-供需平台测试套件 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-供需平台测试套件" class="hide-methods passed suite-供需平台测试套件"> (hide)</a> <!-- hide-methods passed suite-供需平台测试套件 -->
+                      <a href="#" panel-name="suite-供需平台测试套件" class="show-methods passed suite-供需平台测试套件"> (show)</a> <!-- show-methods passed suite-供需平台测试套件 -->
+                    </span>
+                    <div class="method-list-content passed suite-供需平台测试套件">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-供需平台测试套件" title="com.course.bvtcase.AddProduct" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-供需平台测试套件" title="com.course.bvtcase.Login" hash-for-method="loginCase">loginCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-供需平台测试套件 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-供需平台测试套件" class="panel 供需平台测试套件">
+          <div class="suite-供需平台测试套件-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.course.bvtcase.UpdateProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProduct">
+                  </a> <!-- updateProduct -->
+                  <span class="method-name">updateProduct</span>
+                  <div class="stack-trace">java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+	at com.course.bvtcase.UpdateProduct.updateProduct(UpdateProduct.java:78)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-供需平台测试套件-class-failed -->
+          <div class="suite-供需平台测试套件-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.course.bvtcase.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginCase">
+                  </a> <!-- loginCase -->
+                  <span class="method-name">loginCase</span>
+                  <em>
+(用户登录成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-供需平台测试套件-class-passed -->
+          <div class="suite-供需平台测试套件-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.course.bvtcase.AddProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct">
+                  </a> <!-- addProduct -->
+                  <span class="method-name">addProduct</span>
+                  <em>
+(添加用户接口测试)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-供需平台测试套件-class-passed -->
+        </div> <!-- panel 供需平台测试套件 -->
+        <div panel-name="test-xml-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\GITMASTER\AutoAPI\APITEST\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;供需平台测试套件&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.course.config.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;供需平台测试测试用例&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.course.bvtcase.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginCase&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.course.bvtcase.Login --&gt;
+      &lt;class name=&quot;com.course.bvtcase.AddProduct&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addProduct&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.course.bvtcase.AddProduct --&gt;
+      &lt;class name=&quot;com.course.bvtcase.UpdateProduct&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;updateProduct&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.course.bvtcase.UpdateProduct --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 供需平台测试测试用例 --&gt;
+&lt;/suite&gt; &lt;!-- 供需平台测试套件 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 供需平台测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">供需平台测试测试用例 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 供需平台测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">loginCase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 供需平台测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_供需平台测试套件');
+function tableData_供需平台测试套件() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginCase')
+data.setCell(0, 2, 'com.course.bvtcase.Login')
+data.setCell(0, 3, 1060);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addProduct')
+data.setCell(1, 2, 'com.course.bvtcase.AddProduct')
+data.setCell(1, 3, 589);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'updateProduct')
+data.setCell(2, 2, 'com.course.bvtcase.UpdateProduct')
+data.setCell(2, 3, 330);
+window.suiteTableData['供需平台测试套件']= { tableData: data, tableDiv: 'times-div-供需平台测试套件'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-供需平台测试套件">
+              </div> <!-- times-div-供需平台测试套件 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 供需平台测试套件</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-供需平台测试套件" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.AddProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.UpdateProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginCase</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.AddProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addProduct</span>
+                <span class="method-start">1155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.UpdateProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateProduct</span>
+                <span class="method-start">1744 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.AddProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">2077 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">2077 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.bvtcase.UpdateProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">2077 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="供需平台测试套件" duration-ms="2078" started-at="2019-09-11T07:22:42Z" finished-at="2019-09-11T07:22:44Z">
+    <groups>
+      <group name="loginCase">
+        <method signature="Login.loginCase()[pri:0, instance:com.course.bvtcase.Login@3cbbc1e0]" name="loginCase" class="com.course.bvtcase.Login"/>
+      </group> <!-- loginCase -->
+    </groups>
+    <test name="供需平台测试测试用例" duration-ms="2078" started-at="2019-09-11T07:22:42Z" finished-at="2019-09-11T07:22:44Z">
+      <class name="com.course.bvtcase.AddProduct">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.bvtcase.AddProduct@35fb3008]" name="beforeTest" is-config="true" duration-ms="82" started-at="2019-09-11T15:22:42Z" description="获取到添加产品的url" finished-at="2019-09-11T15:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.bvtcase.Login@3cbbc1e0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-09-11T15:22:42Z" finished-at="2019-09-11T15:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.bvtcase.UpdateProduct@7225790e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-09-11T15:22:42Z" description="获取到修改产品的url" finished-at="2019-09-11T15:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addProduct()[pri:0, instance:com.course.bvtcase.AddProduct@35fb3008]" name="addProduct" duration-ms="589" depends-on-groups="loginCase" started-at="2019-09-11T15:22:44Z" description="添加用户接口测试" finished-at="2019-09-11T15:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.course.bvtcase.UpdateProduct@7225790e]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-11T15:22:44Z" finished-at="2019-09-11T15:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.course.bvtcase.Login@3cbbc1e0]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-11T15:22:44Z" finished-at="2019-09-11T15:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.course.bvtcase.AddProduct@35fb3008]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-11T15:22:44Z" finished-at="2019-09-11T15:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.course.bvtcase.AddProduct -->
+      <class name="com.course.bvtcase.Login">
+        <test-method status="PASS" signature="loginCase()[pri:0, instance:com.course.bvtcase.Login@3cbbc1e0]" name="loginCase" duration-ms="1060" started-at="2019-09-11T15:22:42Z" description="用户登录成功" finished-at="2019-09-11T15:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCase -->
+      </class> <!-- com.course.bvtcase.Login -->
+      <class name="com.course.bvtcase.UpdateProduct">
+        <test-method status="FAIL" signature="updateProduct()[pri:0, instance:com.course.bvtcase.UpdateProduct@7225790e]" name="updateProduct" duration-ms="330" depends-on-groups="loginCase" started-at="2019-09-11T15:22:44Z" finished-at="2019-09-11T15:22:44Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.Integer cannot be cast to java.lang.String]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+	at com.course.bvtcase.UpdateProduct.updateProduct(UpdateProduct.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+      </class> <!-- com.course.bvtcase.UpdateProduct -->
+    </test> <!-- 供需平台测试测试用例 -->
+  </suite> <!-- 供需平台测试套件 -->
+</testng-results>

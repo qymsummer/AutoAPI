@@ -1,0 +1,19 @@
+{
+  "repaymentMeansIds":"9",
+  "loanUseIds":"1",
+  "guaranteeMeansIds":"5",
+  "fullProvince":false,
+  "quotaRangeLimitEnum":false,
+  "name":"产品名称111",
+  "termRangeStart":"1",
+  "termRangeEnd":"3",
+  "annualInterestRangeStart":"4",
+  "annualInterestRangeEnd":"5",
+  "quotaRangeEnd":"100",
+  "acceptanceTimeStart":"6",
+  "acceptanceTimeEnd":"7",
+  "introduce":"产品介绍",
+  "characteristic":"产品特色",
+  "applyRequirement":"申请条件",
+  "requirementMaterial":"所需材料"
+}

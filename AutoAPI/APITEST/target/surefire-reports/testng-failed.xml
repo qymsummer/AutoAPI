@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [供需平台测试套件]" parallel="tests">
+  <listeners>
+    <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="供需平台测试测试用例(failed)" parallel="tests">
+    <classes>
+      <class name="com.course.bvtcase.UpdateProduct">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="updateProduct"/>
+        </methods>
+      </class> <!-- com.course.bvtcase.UpdateProduct -->
+      <class name="com.course.bvtcase.Login">
+        <methods>
+          <include name="loginCase"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.course.bvtcase.Login -->
+      <class name="com.course.bvtcase.AddProduct">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.course.bvtcase.AddProduct -->
+    </classes>
+  </test> <!-- 供需平台测试测试用例(failed) -->
+</suite> <!-- Failed suite [供需平台测试套件] -->
