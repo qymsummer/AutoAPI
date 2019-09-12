@@ -28,6 +28,9 @@ public class ConfigFile {
         if (name == InterfaceName.UPDATEPRODUCT) {
             uri = bundle.getString("updateproduct.uri");
         }
+        if (name == InterfaceName.GETTICKET) {
+            uri = bundle.getString("ticket.url");
+        }
         testUrl = address + uri;
         return testUrl;
     }
