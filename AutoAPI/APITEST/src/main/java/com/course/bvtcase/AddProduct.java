@@ -33,9 +33,11 @@ public class AddProduct {
         HttpPost httpPost = new HttpPost(TestConfig.addProductUrl);
         JSONObject params = new JSONObject();
         params.put("repaymentMeansIds","9");
-        params.put("loanUseIds","1");
+        params.put("loanUseIds","1,4");
         params.put("guaranteeMeansIds","5");
-        params.put("name","测试0");
+        params.put("fullProvince","true");
+        params.put("quotaRangeLimitEnum","false");
+        params.put("name","测试01");
         params.put("termRangeStart","1");
         params.put("termRangeEnd","3");
         params.put("annualInterestRangeStart","4");
@@ -48,8 +50,10 @@ public class AddProduct {
         params.put("applyRequirement","申请条件");
         params.put("requirementMaterial","所需材料");
         params.put("labelIds","24");
-        params.put("fullProvince","true");
         httpPost.setHeader("content-type", "application/json");
+        String name="jwtToken";
+        String value="eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiYWVhMGU4Ny1iNDE2LTRkNmEtOWJiYy0yZDQwNzY2NWJmOTIiLCJzdWIiOiIzMjYiLCJpc3MiOiJKcnlfYWRtaW4iLCJpYXQiOjE1NjgyNzI5ODYsImV4cCI6MTU2ODg3Nzc4Nn0.4T2VUdwxBDlN4zs5I0mfizrXow1hB-0AZQu_91bKNhw";
+        httpPost.setHeader(name,value);
         StringEntity entity = new StringEntity(params.toString(),"utf-8");
         httpPost.setEntity(entity);
         String result;
@@ -69,6 +73,7 @@ public class AddProduct {
         HttpResponse response =  TestConfig.client.execute (httpPost);
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
+        System.out.println(result);
         /*
         JSONObject JSON = new JSONObject(result);
         int success = (int) JSON.get("code");

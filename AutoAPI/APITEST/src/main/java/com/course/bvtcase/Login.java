@@ -73,8 +73,8 @@ public class Login {
         //判断
         Assert.assertEquals("成功",success);
         System.out.println(result);
-
-
+        JSONObject ticketlist = resultJson.getJSONObject("data");
+        System.out.println(ticketlist.get("jwtToken"));
     }
 
 }

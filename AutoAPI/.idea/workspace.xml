@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/OtherTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/xx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/GetTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/GetTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/application.properties" afterDir="false" />
@@ -109,19 +110,15 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml">
-    <configuration name="AddProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OtherTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.utils.OtherTicket" />
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="PATTERN" value="com.course.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
-      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.AddProduct" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,34 +150,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetTicket.jsonLoop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="PATTERN" value="com.course.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
-      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.course.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.course.utils.GetTicket" />
+      <option name="METHOD_NAME" value="jsonLoop" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.loginCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="xx.t" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="PATTERN" value="com.course.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
-      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.Login" />
-      <option name="METHOD_NAME" value="loginCase" />
+      <option name="PACKAGE_NAME" value="com.course.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.course.utils.xx" />
+      <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -191,10 +189,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.AddProduct" />
-        <item itemvalue="TestNG.Login.loginCase" />
-        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.GetTicket.jsonLoop" />
+        <item itemvalue="TestNG.xx.t" />
         <item itemvalue="TestNG.GetTicket" />
+        <item itemvalue="Application.OtherTicket" />
       </list>
     </recent_temporary>
   </component>

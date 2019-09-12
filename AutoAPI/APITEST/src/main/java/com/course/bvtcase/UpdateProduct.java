@@ -61,8 +61,6 @@ public class UpdateProduct {
         map.put("areaIds",new String[]{"1"});
         //null作为value时，转换成json后不会保存
         JSONObject params = new JSONObject(map);
-        System.out.println(params.toString());
-        System.out.println(params);
         httpPut.setHeader("content-type", "application/json");
         StringEntity entity = new StringEntity(params.toString(),"utf-8");
         httpPut.setEntity(entity);
