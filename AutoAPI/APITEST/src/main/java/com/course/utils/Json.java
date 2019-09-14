@@ -14,7 +14,7 @@ public class Json {
 
             JSONObject jsonobj = JSON.parseObject(myJsonObj); //将json字符串转换成jsonObject对象
             /***获取JSONObject中每个key对应的value值时，可以根据实际场景中想得到什么类型就分别运用不到的方法***/
-            System.out.println(jsonobj.getString("data"));
+
             System.out.println(jsonobj.getJSONObject("data")); //取出sites对应的value值，得到一个JSONObject子对象
         }
     public static void main(String[] args) {

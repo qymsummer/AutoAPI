@@ -4,19 +4,14 @@
 <suite name="供需平台测试套件" parallel="tests" thread-count="1">
     <test name="供需平台测试测试用例">
         <classes>
-            <class name="com.course.bvtcase.Login">
+            <class name="com.course.bvtcase.Token">
                 <methods>
-                    <include name="loginCase"/>
+                    <include name="token"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.AddProduct">
+            <class name="com.course.bvtcase.add">
                 <methods>
-                    <include name="addProduct"/>
-                </methods>
-            </class>
-            <class name="com.course.bvtcase.UpdateProduct">
-                <methods>
-                    <include name="updateProduct"/>
+                    <include name="a"/>
                 </methods>
             </class>
         </classes>

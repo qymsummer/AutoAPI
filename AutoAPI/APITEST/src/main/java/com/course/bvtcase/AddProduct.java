@@ -3,6 +3,7 @@ package com.course.bvtcase;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
+import com.course.utils.TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.cookie.Cookie;
@@ -18,6 +19,17 @@ import java.io.IOException;
 import java.util.List;
 
 public class AddProduct {
+    /*
+    private static String value;
+    static {
+        try {
+            value = Login.getaToken();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+     */
     @BeforeTest(
             description = "获取到添加产品的url"
     )
@@ -29,7 +41,7 @@ public class AddProduct {
     public void afterTest(){
     }
     @Test(dependsOnGroups = "loginCase",description = "添加用户接口测试")
-    public void addProduct() throws IOException {
+    public void addProduct() throws Exception {
         HttpPost httpPost = new HttpPost(TestConfig.addProductUrl);
         JSONObject params = new JSONObject();
         params.put("repaymentMeansIds","9");
@@ -52,7 +64,7 @@ public class AddProduct {
         params.put("labelIds","24");
         httpPost.setHeader("content-type", "application/json");
         String name="jwtToken";
-        String value="eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiYWVhMGU4Ny1iNDE2LTRkNmEtOWJiYy0yZDQwNzY2NWJmOTIiLCJzdWIiOiIzMjYiLCJpc3MiOiJKcnlfYWRtaW4iLCJpYXQiOjE1NjgyNzI5ODYsImV4cCI6MTU2ODg3Nzc4Nn0.4T2VUdwxBDlN4zs5I0mfizrXow1hB-0AZQu_91bKNhw";
+        String value = TokenFile.readFile();
         httpPost.setHeader(name,value);
         StringEntity entity = new StringEntity(params.toString(),"utf-8");
         httpPost.setEntity(entity);
@@ -81,7 +93,6 @@ public class AddProduct {
         Assert.assertEquals(0,success);
         System.out.println(result);
          */
-
-
+        
     }
 }

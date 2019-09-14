@@ -3,7 +3,7 @@ package com.course.bvtcase;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
-import com.course.utils.Ticket;
+import com.course.utils.TokenFile;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -12,7 +12,6 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -25,17 +24,21 @@ import java.util.List;
 
 public class Login {
 
+    private static String account = "TLCB114567";
+    private static String password = "TLCB114567";
+    private static String userType = "1";
+
     @BeforeTest
     public void beforeTest(){
         TestConfig.ticketurl = ConfigFile.getUrl(InterfaceName.GETTICKET);
         TestConfig.loginUrl = ConfigFile.getUrl(InterfaceName.LOGIN);
-
     }
     @AfterTest
     public void afterTest(){
     }
+    //获取到ticket
 
-    public String loginCase1() throws IOException {
+    public static String getTicket() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.ticketurl);
         HttpResponse response = TestConfig.client.execute(httpPost);
         String getticket;
@@ -46,14 +49,18 @@ public class Login {
         return ticket;
     }
     @Test(groups = "loginCase", description = "用户登录成功")
-    public void loginCase() throws IOException {
+    public void loginCase() throws Exception {
+        String token = getaToken();
+        TokenFile.witerToken(token);
+
+
+    }
+
+    public static String getaToken() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.loginUrl);
         System.out.println(httpPost);
-        List<NameValuePair> params=new ArrayList<NameValuePair>();
-        String account = "TLCB114567";
-        String password = "TLCB114567";
-        String userType = "1";
-        String ticket = loginCase1();
+        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        String ticket = getTicket();
         params.add(new BasicNameValuePair("account",account));
         params.add(new BasicNameValuePair("password",password));
         params.add(new BasicNameValuePair("userType",userType));
@@ -74,7 +81,7 @@ public class Login {
         Assert.assertEquals("成功",success);
         System.out.println(result);
         JSONObject ticketlist = resultJson.getJSONObject("data");
-        System.out.println(ticketlist.get("jwtToken"));
+        String token = (String) ticketlist.get("jwtToken");
+        return token;
     }
-
 }
