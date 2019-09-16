@@ -50,13 +50,11 @@ public class Login {
     }
     @Test(groups = "loginCase", description = "用户登录成功")
     public void loginCase() throws Exception {
-        String token = getaToken();
+        String token = getToken();
         TokenFile.witerToken(token);
-
-
     }
 
-    public static String getaToken() throws IOException {
+    public static String getToken() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.loginUrl);
         System.out.println(httpPost);
         List<NameValuePair> params = new ArrayList<NameValuePair>();

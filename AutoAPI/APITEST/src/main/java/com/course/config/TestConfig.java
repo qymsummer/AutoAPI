@@ -13,6 +13,7 @@ public class TestConfig {
     public static String addProductUrl;
     //编辑产品URL
     public static String updateProductUrl;
+    
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();
 }

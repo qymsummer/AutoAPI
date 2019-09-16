@@ -3,6 +3,7 @@ package com.course.bvtcase;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
+import com.course.utils.TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPut;
 import org.apache.http.cookie.Cookie;
@@ -62,6 +63,9 @@ public class UpdateProduct {
         //null作为value时，转换成json后不会保存
         JSONObject params = new JSONObject(map);
         httpPut.setHeader("content-type", "application/json");
+        String name="jwtToken";
+        String value = TokenFile.readFile();
+        httpPut.setHeader(name,value);
         StringEntity entity = new StringEntity(params.toString(),"utf-8");
         httpPut.setEntity(entity);
         String result;
@@ -73,7 +77,7 @@ public class UpdateProduct {
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
 
-        org.json.JSONObject resultJson = new JSONObject(result);
+        JSONObject resultJson = new JSONObject(result);
         int  success = (int) resultJson.get("code");//判断
         Assert.assertEquals(0,success);
         System.out.println(result);

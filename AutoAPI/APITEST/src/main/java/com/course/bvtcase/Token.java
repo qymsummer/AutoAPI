@@ -10,7 +10,7 @@ public class Token {
         TokenFile.witerToken(a);
     }
     public static String getaToken(){
-        String a = "1212";
+        String a = "12121212";
         return a;
     }
 }
