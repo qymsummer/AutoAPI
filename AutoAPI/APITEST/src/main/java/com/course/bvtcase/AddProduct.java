@@ -19,26 +19,16 @@ import java.io.IOException;
 import java.util.List;
 
 public class AddProduct {
-    /*
-    private static String value;
-    static {
-        try {
-            value = Login.getaToken();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
-     */
     @BeforeTest(
             description = "获取到添加产品的url"
     )
     public void beforeTest() {
-
         TestConfig.addProductUrl = ConfigFile.getUrl(InterfaceName.ADDPRODUCT);
     }
     @AfterTest
     public void afterTest(){
+
     }
     @Test(dependsOnGroups = "loginCase",description = "添加用户接口测试")
     public void addProduct() throws Exception {
@@ -49,12 +39,12 @@ public class AddProduct {
         params.put("guaranteeMeansIds","5");
         params.put("fullProvince","true");
         params.put("quotaRangeLimitEnum","false");
-        params.put("name","测试01");
+        params.put("name","测试011");
         params.put("termRangeStart","1");
         params.put("termRangeEnd","3");
         params.put("annualInterestRangeStart","4");
         params.put("annualInterestRangeEnd","5");
-        params.put("quotaRangeEnd","100");
+        params.put("quotaRangeEnd","100000000000");
         params.put("acceptanceTimeStart","6");
         params.put("acceptanceTimeEnd","7");
         params.put("introduce","产品介绍");
@@ -85,14 +75,13 @@ public class AddProduct {
         HttpResponse response =  TestConfig.client.execute (httpPost);
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        System.out.println(result);
-        /*
+
         JSONObject JSON = new JSONObject(result);
         int success = (int) JSON.get("code");
         //判断
         Assert.assertEquals(0,success);
         System.out.println(result);
-        */
+
         
     }
 }

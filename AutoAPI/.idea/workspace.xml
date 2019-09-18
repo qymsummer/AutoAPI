@@ -7,14 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/dda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/AddProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/LoginAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/MyCookiesForPost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/other/UpdateProduct.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/TokenFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/TokenFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/TokenFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/TokenFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Chapter13/src/main/java/com/course" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/APITEST/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
       <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
       <recent name="C:\GITMASTER\AutoAPI" />
       <recent name="C:\GITMASTER\AutoAPI\Chapter17\src\main\resources" />
       <recent name="C:\GITMASTER\AutoAPI\Chapter15\src\main\java\com\course" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter16\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.course.other" />
@@ -115,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTicket.jsonLoop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ticket" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
@@ -124,26 +123,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.course.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.course.utils.GetTicket" />
-      <option name="METHOD_NAME" value="jsonLoop" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.course.utils.Ticket" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ticket.loginCase2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="PATTERN" value="com.course.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
-      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.course.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.course.utils.Ticket" />
+      <option name="METHOD_NAME" value="loginCase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -187,10 +186,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.Ticket" />
+        <item itemvalue="TestNG.Ticket.loginCase2" />
         <item itemvalue="TestNG.add" />
         <item itemvalue="TestNG.Token" />
-        <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.GetTicket.jsonLoop" />
       </list>
     </recent_temporary>
   </component>
