@@ -52,12 +52,12 @@ public class UpdateProduct {
         map.put("loanUseIds","1,4");
         map.put("guaranteeMeansIds","5");
         map.put("repaymentMeansIds","9");
-        map.put("introduce","1");
-        map.put("characteristic","1");
+        map.put("introduce","产品介绍");
+        map.put("characteristic","产品特色");
         map.put("labelIds","");
         map.put("applyRequirementList",null);
-        map.put("applyRequirement","1");
-        map.put("requirementMaterial","1");
+        map.put("applyRequirement","申请条件");
+        map.put("requirementMaterial","所需材料");
         map.put("saleStatus","0");
         map.put("createTime","2019-09-11 12,25,45");
         map.put("fullProvince",false);

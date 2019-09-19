@@ -7,20 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/DataIdFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/GetRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteProductList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

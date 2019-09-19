@@ -76,7 +76,6 @@ public class AddProduct {
             String value = cookie.getValue();
             System.out.println("name = "+name+",value = "+value);
         }
-
          */
         //设置Cookies信息
         TestConfig.client.setCookieStore(TestConfig.store);
