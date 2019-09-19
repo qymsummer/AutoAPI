@@ -7,13 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Chapter13" />
-        <module name="Chapter12" />
         <module name="APITEST" />
-        <module name="Chapter9" />
-        <module name="Chapter17" />
-        <module name="Chapter16" />
-        <module name="Chapter15" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
