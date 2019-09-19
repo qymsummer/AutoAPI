@@ -15,7 +15,7 @@ public class ConfigFile {
 
     //传进来的name，必须是InterfaceName类中枚举的接口名，
     public static String getUrl(InterfaceName name) {
-        String address = bundle.getString("test.url");
+        String address = bundle.getString("test.uri");
         String uri = ""; //获取application.perperties中的uri
         String testUrl;  //最终的测试地址，address+uri
 
@@ -29,7 +29,10 @@ public class ConfigFile {
             uri = bundle.getString("updateproduct.uri");
         }
         if (name == InterfaceName.GETTICKET) {
-            uri = bundle.getString("ticket.url");
+            uri = bundle.getString("ticket.uri");
+        }
+        if (name == InterfaceName.LOOKPRODUCT){
+            uri = bundle.getString("lookproduct.uri");
         }
         testUrl = address + uri;
         return testUrl;

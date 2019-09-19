@@ -19,8 +19,6 @@ public class TokenFile {
         }
     }
 
-
-
     public static void readToBuffer(StringBuffer buffer, String filePath) throws IOException {
         InputStream is = new FileInputStream(filePath);
         String line;

@@ -15,7 +15,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
 import java.util.List;
 
 public class AddProduct {
@@ -39,12 +38,12 @@ public class AddProduct {
         params.put("guaranteeMeansIds","5");
         params.put("fullProvince","true");
         params.put("quotaRangeLimitEnum","false");
-        params.put("name","测试011");
+        params.put("name","测试1111011");
         params.put("termRangeStart","1");
         params.put("termRangeEnd","3");
         params.put("annualInterestRangeStart","4");
         params.put("annualInterestRangeEnd","5");
-        params.put("quotaRangeEnd","100000000000");
+        params.put("quotaRangeEnd","10000000");
         params.put("acceptanceTimeStart","6");
         params.put("acceptanceTimeEnd","7");
         params.put("introduce","产品介绍");
