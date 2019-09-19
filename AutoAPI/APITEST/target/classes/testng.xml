@@ -24,6 +24,11 @@
                     <include name="lookProduct"/>
                 </methods>
             </class>
+            <class name="com.course.bvtcase.LookWhiteList">
+                <methods>
+                    <include name="lookWhiteList"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
