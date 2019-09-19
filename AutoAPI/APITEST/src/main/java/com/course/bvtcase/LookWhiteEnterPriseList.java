@@ -11,6 +11,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.StringEntity;
@@ -40,24 +41,21 @@ public class LookWhiteEnterPriseList {
     }
     @Test(dependsOnGroups = "loginCase",description = "查看白名单企业列表测试")
     public void lookWhiteEnterPriseList() throws Exception {
-
-        HttpGet httpGet = new HttpGet(TestConfig.lookWhiteEnterPriseList);
+        URIBuilder builder = new URIBuilder(TestConfig.lookWhiteEnterPriseList);
+        System.out.println("----------");
+        System.out.println(builder);
+        System.out.println("----------");
+        String dataId = DataIdFile.readFile();
+        builder.addParameter("pageNo","1");
+        builder.addParameter("pageSize","10");
+        builder.addParameter("productId",dataId);
+        HttpGet httpGet = new HttpGet(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile();
         httpGet.setHeader(name,value);
-        List<NameValuePair> list = new ArrayList<NameValuePair>();
-        String dataId = DataIdFile.readFile();
-        list.add(new BasicNameValuePair("pageNo","1"));
-        list.add(new BasicNameValuePair("pageSize","10"));
-        list.add(new BasicNameValuePair("productId",dataId));
-        httpGet.setHeader("content-type", "application/x-www-form-urlencoded");
-
-        TestConfig.store = TestConfig.client.getCookieStore();
-        List<Cookie> cookieList = TestConfig.store.getCookies();
-        HttpResponse response = TestConfig.client.execute (httpGet);
+        HttpResponse response =  TestConfig.client.execute (httpGet);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        System.out.println(result);
-
+        System.out.println("测试结果:"+"\t"+result);
     }
 }

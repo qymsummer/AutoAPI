@@ -9,10 +9,11 @@
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteEnterPriseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteEnterPriseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteProductList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteEnterPriseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteEnterPriseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteProductList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

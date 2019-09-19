@@ -39,6 +39,5 @@ public class LookWhiteProductList {
         int success = (int) JSON.get("code");
         //判断
         Assert.assertEquals(0,success);
-        System.out.println(result);
     }
 }
