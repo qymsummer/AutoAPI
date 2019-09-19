@@ -13,20 +13,21 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class LookWhiteList {
+
+public class LookWhiteProductList {
     @BeforeTest(
-            description = "查看白名单列表"
-    )
-    public void beforeTest() {
-        TestConfig.lookWhiteList = ConfigFile.getUrl(InterfaceName.LOOKWHITELIST);
-    }
+        description = "查看白名单产品列表"
+)
+public void beforeTest() {
+    TestConfig.lookWhiteProductList = ConfigFile.getUrl(InterfaceName.LOOKWHITEPRODUCTLIST);
+}
     @AfterTest
     public void afterTest(){
 
     }
-    @Test(dependsOnGroups = "loginCase",description = "查看白名单列表测试")
-    public void lookWhiteList() throws Exception {
-        HttpGet httpGet = new HttpGet(TestConfig.lookWhiteList);
+    @Test(dependsOnGroups = "loginCase",description = "查看白名单产品列表测试")
+    public void lookWhiteProductList() throws Exception {
+        HttpGet httpGet = new HttpGet(TestConfig.lookWhiteProductList);
         String name="jwtToken";
         String value = TokenFile.readFile();
         String result;

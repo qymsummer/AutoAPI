@@ -15,9 +15,10 @@ public class TestConfig {
     public static String updateProductUrl;
     //查看产品
     public static String lookProductUrl;
+    //查看白名单产品列表
+    public static String lookWhiteProductList;
     //查看白名单列表
     public static String lookWhiteList;
-
 
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();

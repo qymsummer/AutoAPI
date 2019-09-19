@@ -34,6 +34,9 @@ public class ConfigFile {
         if (name == InterfaceName.LOOKPRODUCT){
             uri = bundle.getString("lookproduct.uri");
         }
+        if (name == InterfaceName.LOOKWHITEPRODUCTLIST){
+            uri = bundle.getString("lookwhiteProductlist.uri");
+        }
         if (name == InterfaceName.LOOKWHITELIST){
             uri = bundle.getString("lookwhitelist.uri");
         }
