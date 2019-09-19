@@ -3,6 +3,8 @@ package com.course.bvtcase;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
+import com.course.utils.DataIdFile;
+import com.course.utils.GetRandom;
 import com.course.utils.TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPut;
@@ -29,12 +31,14 @@ public class UpdateProduct {
     public void afterTest(){
     }
     @Test(dependsOnGroups = "loginCase")
-    public void updateProduct() throws IOException {
+    public void updateProduct() throws Exception {
         HttpPut httpPut = new HttpPut(TestConfig.updateProductUrl);
-        String enterpriseAccessRequirementList = "\\[]";
+        String random= GetRandom.getRandomChar(3);
+        String productName= "测试修改"+random;
+        String dataId = DataIdFile.readFile();
         Map<String, Object> map = new LinkedHashMap<String, Object>();
-        map.put("id","1171640986992906242");
-        map.put("name","试测");
+        map.put("id",dataId);
+        map.put("name",productName);
         map.put("provinceId","330000");
         map.put("cityId",null);
         map.put("districtId",null);
@@ -42,7 +46,7 @@ public class UpdateProduct {
         map.put("termRangeEnd","3");
         map.put("annualInterestRangeStart","1");
         map.put("annualInterestRangeEnd","3");
-        map.put("quotaRangeEnd","11");
+        map.put("quotaRangeEnd","111");
         map.put("acceptanceTimeStart","1");
         map.put("acceptanceTimeEnd","3");
         map.put("loanUseIds","1,4");

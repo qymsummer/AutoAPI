@@ -3,6 +3,8 @@ package com.course.bvtcase;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
+import com.course.utils.DataIdFile;
+import com.course.utils.GetRandom;
 import com.course.utils.TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -23,6 +25,7 @@ public class AddProduct {
             description = "获取到添加产品的url"
     )
     public void beforeTest() {
+
         TestConfig.addProductUrl = ConfigFile.getUrl(InterfaceName.ADDPRODUCT);
     }
     @AfterTest
@@ -30,20 +33,27 @@ public class AddProduct {
 
     }
     @Test(dependsOnGroups = "loginCase",description = "添加用户接口测试")
-    public void addProduct() throws Exception {
+    public void runAddProduct() throws Exception {
+        String result = addProduct();
+        DataIdFile.witerDataId(result);
+    }
+
+    public static String addProduct() throws Exception {
         HttpPost httpPost = new HttpPost(TestConfig.addProductUrl);
         JSONObject params = new JSONObject();
+        String random= GetRandom.getRandomChar(5);
+        String productName= "测试添加"+random;
         params.put("repaymentMeansIds","9");
         params.put("loanUseIds","1,4");
         params.put("guaranteeMeansIds","5");
         params.put("fullProvince","true");
         params.put("quotaRangeLimitEnum","false");
-        params.put("name","测试9809811");
+        params.put("name",productName);
         params.put("termRangeStart","1");
         params.put("termRangeEnd","3");
         params.put("annualInterestRangeStart","4");
         params.put("annualInterestRangeEnd","5");
-        params.put("quotaRangeEnd","10000000");
+        params.put("quotaRangeEnd","1001");
         params.put("acceptanceTimeStart","6");
         params.put("acceptanceTimeEnd","7");
         params.put("introduce","产品介绍");
@@ -79,8 +89,7 @@ public class AddProduct {
         int success = (int) JSON.get("code");
         //判断
         Assert.assertEquals(0,success);
-        System.out.println(result);
-
-        
+        String dataId = (String) JSON.get("data");
+        return dataId;
     }
 }

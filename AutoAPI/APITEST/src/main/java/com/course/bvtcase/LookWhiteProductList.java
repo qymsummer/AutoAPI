@@ -13,17 +13,17 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
 public class LookWhiteProductList {
     @BeforeTest(
         description = "查看白名单产品列表"
-)
-public void beforeTest() {
+    )
+    public void beforeTest() {
+
     TestConfig.lookWhiteProductList = ConfigFile.getUrl(InterfaceName.LOOKWHITEPRODUCTLIST);
-}
+
+    }
     @AfterTest
     public void afterTest(){
-
     }
     @Test(dependsOnGroups = "loginCase",description = "查看白名单产品列表测试")
     public void lookWhiteProductList() throws Exception {

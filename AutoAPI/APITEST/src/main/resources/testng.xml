@@ -11,7 +11,7 @@
             </class>
             <class name="com.course.bvtcase.AddProduct">
                 <methods>
-                    <include name="addProduct"/>
+                    <include name="runAddProduct"/>
                 </methods>
             </class>
             <class name="com.course.bvtcase.UpdateProduct">
