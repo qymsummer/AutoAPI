@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="供需平台测试套件" parallel="tests" thread-count="1">
-    <test name="供需平台测试测试用例">
+    <test name="供需平台测试用例">
         <classes>
             <class name="com.course.bvtcase.Login">
                 <methods>
@@ -32,6 +32,11 @@
             <class name="com.course.bvtcase.LookWhiteList">
                 <methods>
                     <include name="lookWhiteList"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.LookWhiteEnterPriseList">
+                <methods>
+                    <include name="lookWhiteProductList"/>
                 </methods>
             </class>
         </classes>

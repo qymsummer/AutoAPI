@@ -53,7 +53,7 @@ public class AddProduct {
         params.put("termRangeEnd","3");
         params.put("annualInterestRangeStart","4");
         params.put("annualInterestRangeEnd","5");
-        params.put("quotaRangeEnd","1001");
+        params.put("quotaRangeEnd","1000");
         params.put("acceptanceTimeStart","6");
         params.put("acceptanceTimeEnd","7");
         params.put("introduce","产品介绍");

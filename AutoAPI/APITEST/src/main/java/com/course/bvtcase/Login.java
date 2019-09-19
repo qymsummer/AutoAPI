@@ -8,6 +8,7 @@ import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
@@ -35,9 +36,9 @@ public class Login {
     }
     @AfterTest
     public void afterTest(){
+
     }
     //获取到ticket
-
     public static String getTicket() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.ticketurl);
         HttpResponse response = TestConfig.client.execute(httpPost);
@@ -56,6 +57,7 @@ public class Login {
 
     public static String getToken() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.loginUrl);
+
         System.out.println(httpPost);
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         String ticket = getTicket();
@@ -66,6 +68,7 @@ public class Login {
         httpPost.setHeader("content-type", "application/x-www-form-urlencoded");
         HttpEntity entity = new UrlEncodedFormEntity(params, "utf-8");
         httpPost.setEntity(entity);
+
         String result;
         //设置Cookies信
         TestConfig.client.setCookieStore(TestConfig.store);

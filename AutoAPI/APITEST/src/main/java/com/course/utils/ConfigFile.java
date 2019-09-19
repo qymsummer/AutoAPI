@@ -40,6 +40,9 @@ public class ConfigFile {
         if (name == InterfaceName.LOOKWHITELIST){
             uri = bundle.getString("lookwhitelist.uri");
         }
+        if (name == InterfaceName.LOOKWHITEENTERPRISELIST){
+            uri = bundle.getString("lookwhiteentepriselist.uri");
+        }
         testUrl = address + uri;
         return testUrl;
     }

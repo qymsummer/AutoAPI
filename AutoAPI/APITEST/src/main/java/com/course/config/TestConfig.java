@@ -19,6 +19,8 @@ public class TestConfig {
     public static String lookWhiteProductList;
     //查看白名单列表
     public static String lookWhiteList;
+    //查看白名单企业列表
+    public static String lookWhiteEnterPriseList;
 
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();

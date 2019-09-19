@@ -33,7 +33,7 @@ public class UpdateProduct {
     @Test(dependsOnGroups = "loginCase")
     public void updateProduct() throws Exception {
         HttpPut httpPut = new HttpPut(TestConfig.updateProductUrl);
-        String random= GetRandom.getRandomChar(3);
+        String random= GetRandom.getRandomChar(5);
         String productName= "测试修改"+random;
         String dataId = DataIdFile.readFile();
         Map<String, Object> map = new LinkedHashMap<String, Object>();
@@ -80,11 +80,10 @@ public class UpdateProduct {
         HttpResponse response =  TestConfig.client.execute (httpPut);
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        System.out.println("测试结果"+result);
+        System.out.println("测试结果:"+"\t"+result);
         JSONObject resultJson = new JSONObject(result);
         int  success = (int) resultJson.get("code");//判断
         Assert.assertEquals(0,success);
-        System.out.println(result);
 
     }
 }

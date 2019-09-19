@@ -33,7 +33,7 @@ public class LookWhiteList {
         httpGet.setHeader(name,value);
         HttpResponse response =  TestConfig.client.execute (httpGet);
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        System.out.println("测试结果"+result);
+        System.out.println("测试结果:"+"\t"+result);
         JSONObject JSON = new JSONObject(result);
         int success = (int) JSON.get("code");
         //判断
