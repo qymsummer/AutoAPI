@@ -38,7 +38,7 @@ public class AddProduct {
         params.put("guaranteeMeansIds","5");
         params.put("fullProvince","true");
         params.put("quotaRangeLimitEnum","false");
-        params.put("name","测试1111011");
+        params.put("name","测试9809811");
         params.put("termRangeStart","1");
         params.put("termRangeEnd","3");
         params.put("annualInterestRangeStart","4");
@@ -74,7 +74,7 @@ public class AddProduct {
         HttpResponse response =  TestConfig.client.execute (httpPost);
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-
+        System.out.println("测试结果"+result);
         JSONObject JSON = new JSONObject(result);
         int success = (int) JSON.get("code");
         //判断
