@@ -39,7 +39,7 @@ public class LookWhiteEnterPriseList {
     public void afterTest(){
     }
     @Test(dependsOnGroups = "loginCase",description = "查看白名单企业列表测试")
-    public void lookWhiteProductList() throws Exception {
+    public void lookWhiteEnterPriseList() throws Exception {
 
         HttpGet httpGet = new HttpGet(TestConfig.lookWhiteEnterPriseList);
         String name="jwtToken";

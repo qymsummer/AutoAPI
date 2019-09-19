@@ -36,7 +36,7 @@
             </class>
             <class name="com.course.bvtcase.LookWhiteEnterPriseList">
                 <methods>
-                    <include name="lookWhiteProductList"/>
+                    <include name="lookWhiteEnterPriseList"/>
                 </methods>
             </class>
         </classes>
