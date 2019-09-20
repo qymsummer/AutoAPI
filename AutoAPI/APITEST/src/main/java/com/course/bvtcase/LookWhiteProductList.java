@@ -19,7 +19,7 @@ public class LookWhiteProductList {
     )
     public void beforeTest() {
 
-    TestConfig.lookWhiteProductList = ConfigFile.getUrl(InterfaceName.LOOKWHITEPRODUCTLIST);
+        TestConfig.lookWhiteProductList = ConfigFile.getUrl(InterfaceName.LOOKWHITEPRODUCTLIST);
 
     }
     @AfterTest
