@@ -20,6 +20,7 @@ public class LookProduct {
             description = "获取到添加产品的url"
     )
     public void beforeTest() {
+
         TestConfig.lookProductUrl = ConfigFile.getUrl(InterfaceName.LOOKPRODUCT);
     }
     @AfterTest

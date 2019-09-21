@@ -6,7 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="" />
+    <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Zimport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +75,10 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter17\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI\Chapter15\src\main\java\com\course" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
+      <recent name="C:\软件\AutoAPI\Chapter9" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.course.other" />
@@ -69,10 +87,12 @@
       <recent name="com.course.httpclient.demo" />
       <recent name="com.course.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
-      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
-      <recent name="C:\软件\AutoAPI\Chapter9" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
+      <recent name="C:\GITMASTER\AutoAPI" />
+      <recent name="C:\GITMASTER\AutoAPI\Chapter17\src\main\resources" />
+      <recent name="C:\GITMASTER\AutoAPI\Chapter15\src\main\java\com\course" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -93,19 +113,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml">
-    <configuration name="GetProductId" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.utils.GetProductId" />
-      <module name="APITEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
@@ -168,13 +175,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zimport.importWhiteListUrl" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
+      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.Zimport" />
+      <option name="METHOD_NAME" value="importWhiteListUrl" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.Zimport.importWhiteListUrl" />
         <item itemvalue="TestNG.LookWhiteEnterPriseList.lookWhiteProductList" />
         <item itemvalue="TestNG.Ticket" />
         <item itemvalue="TestNG.AddProduct" />
-        <item itemvalue="Application.GetProductId" />
       </list>
     </recent_temporary>
   </component>

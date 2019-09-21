@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="供需平台测试套件" parallel="tests" thread-count="1">
+<suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
     <test name="供需平台测试用例">
         <classes>
             <class name="com.course.bvtcase.Login">
@@ -37,6 +37,11 @@
             <class name="com.course.bvtcase.LookWhiteEnterPriseList">
                 <methods>
                     <include name="lookWhiteEnterPriseList"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.Zimport">
+                <methods>
+                    <include name="importWhiteListUrl"/>
                 </methods>
             </class>
         </classes>
