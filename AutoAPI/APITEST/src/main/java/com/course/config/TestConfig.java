@@ -23,6 +23,8 @@ public class TestConfig {
     public static String lookWhiteEnterPriseList;
     //导入白名单
     public static String importwhitelistUrl;
+    //模版下载
+    public static String downloadTemplateUrl;
 
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();

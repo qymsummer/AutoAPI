@@ -44,6 +44,11 @@
                     <include name="importWhiteListUrl"/>
                 </methods>
             </class>
+            <class name="com.course.bvtcase.DownloadTemplate">
+                <methods>
+                    <include name="downloadTemplate"/>
+                </methods>
+            </class>
         </classes>
     </test>
 

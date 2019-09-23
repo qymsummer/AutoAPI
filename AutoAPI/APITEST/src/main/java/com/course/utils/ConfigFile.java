@@ -46,6 +46,10 @@ public class ConfigFile {
         if (name == InterfaceName.IMPORTWHITELIST){
             uri = bundle.getString("importwhitelist.uri");
         }
+        if (name == InterfaceName.DOWNLOADTEMPLATE) {
+            uri = bundle.getString("downloadTemplate.uri");
+        }
+
         testUrl = address + uri;
         return testUrl;
     }
