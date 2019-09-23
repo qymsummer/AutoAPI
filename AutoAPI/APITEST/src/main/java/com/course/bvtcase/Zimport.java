@@ -58,7 +58,6 @@ public class Zimport {
         httpPost.setEntity(httpEntity);
         httpPost.setEntity(entity);
         HttpResponse response =  TestConfig.client.execute (httpPost);
-        Thread.sleep(3000);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println("测试结果:"+"\t"+result);

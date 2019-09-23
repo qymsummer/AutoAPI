@@ -9,6 +9,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.util.EntityUtils;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -39,5 +40,12 @@ public class DownloadTemplate {
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println("测试结果:"+"\t"+result);
+        boolean status = result.contains("docProps/app.xmlPK");
+        int flag = 1;
+        if(status){
+            flag = 0;
+        }
+        //判断
+        Assert.assertEquals(0,flag);
     }
 }
