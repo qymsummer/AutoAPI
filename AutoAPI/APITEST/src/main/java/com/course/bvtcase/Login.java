@@ -24,8 +24,8 @@ import java.util.List;
 
 public class Login {
 
-    private static String account = "HZB334564";
-    private static String password = "HZB334564";
+    private static String account = "TLCBa444565";
+    private static String password = "TLCBa444565";
     private static String userType = "1";
 
     @BeforeTest

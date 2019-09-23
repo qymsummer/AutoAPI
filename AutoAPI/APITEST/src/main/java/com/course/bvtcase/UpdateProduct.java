@@ -47,8 +47,8 @@ public class UpdateProduct {
         map.put("districtId",null);
         map.put("termRangeStart","1");
         map.put("termRangeEnd","3");
-        map.put("annualInterestRangeStart","1");
-        map.put("annualInterestRangeEnd","3");
+        map.put("annualInterestRangeEnd","8.01");
+        map.put("annualInterestRangeStart","");
         map.put("quotaRangeEnd","111");
         map.put("acceptanceTimeStart","1");
         map.put("acceptanceTimeEnd","3");

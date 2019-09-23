@@ -3,7 +3,7 @@ package com.course.utils;
 import java.util.Random;
 
 public class GetRandom {
-    public static String getRandomChar(int length) {            //生成随机字符串
+    public static String getRandomChar(int length) {
         char[] chr = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
         Random random = new Random();
         StringBuffer buffer = new StringBuffer();

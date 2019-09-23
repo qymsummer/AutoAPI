@@ -42,9 +42,6 @@ public class LookWhiteEnterPriseList {
     @Test(dependsOnGroups = "loginCase",description = "查看白名单企业列表测试")
     public void lookWhiteEnterPriseList() throws Exception {
         URIBuilder builder = new URIBuilder(TestConfig.lookWhiteEnterPriseList);
-        System.out.println("----------");
-        System.out.println(builder);
-        System.out.println("----------");
         String dataId = DataIdFile.readFile();
         builder.addParameter("pageNo","1");
         builder.addParameter("pageSize","10");
@@ -56,6 +53,7 @@ public class LookWhiteEnterPriseList {
         HttpResponse response =  TestConfig.client.execute (httpGet);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
+        System.out.println(dataId);
         System.out.println("测试结果:"+"\t"+result);
     }
 }
