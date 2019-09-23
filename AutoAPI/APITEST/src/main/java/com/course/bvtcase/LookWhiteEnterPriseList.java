@@ -39,7 +39,7 @@ public class LookWhiteEnterPriseList {
     @AfterTest
     public void afterTest(){
     }
-    @Test(dependsOnGroups = "loginCase",description = "查看白名单企业列表测试")
+    @Test(groups = "lookWhiteEnterPriseList",dependsOnGroups = "loginCase",description = "查看白名单企业列表测试")
     public void lookWhiteEnterPriseList() throws Exception {
         URIBuilder builder = new URIBuilder(TestConfig.lookWhiteEnterPriseList);
         String dataId = DataIdFile.readFile();

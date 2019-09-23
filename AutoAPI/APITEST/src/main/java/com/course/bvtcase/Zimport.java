@@ -34,7 +34,7 @@ public class Zimport {
     public void afterTest(){
 
     }
-    @Test(dependsOnGroups = "loginCase")
+    @Test(groups = "importWhiteListUrl",dependsOnGroups = "loginCase")
     public void importWhiteListUrl() throws Exception {
         HttpPost httpPost = new HttpPost(TestConfig.importwhitelistUrl);
         MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create();

@@ -24,7 +24,7 @@ public class LookWhiteList {
     public void afterTest(){
 
     }
-    @Test(dependsOnGroups = "loginCase",description = "查看白名单列表测试")
+    @Test(groups = "lookWhiteList",dependsOnGroups = "loginCase",description = "查看白名单列表测试")
     public void lookWhiteList() throws Exception {
         HttpGet httpGet = new HttpGet(TestConfig.lookWhiteList);
         String name="jwtToken";

@@ -27,7 +27,7 @@ public class LookProduct {
     public void afterTest(){
 
     }
-    @Test(dependsOnGroups = "loginCase",description = "查看产品详情测试")
+    @Test(groups = "lookProduct",dependsOnGroups = "loginCase",description = "查看产品详情测试")
     public void lookProduct() throws Exception {
         HttpGet httpGet = new HttpGet(TestConfig.lookProductUrl);
         String name="jwtToken";
