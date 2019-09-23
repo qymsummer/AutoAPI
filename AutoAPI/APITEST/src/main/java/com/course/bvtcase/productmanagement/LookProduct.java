@@ -1,4 +1,4 @@
-package com.course.bvtcase;
+package com.course.bvtcase.productmanagement;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
@@ -12,8 +12,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import java.io.IOException;
 
 public class LookProduct {
     @BeforeTest(

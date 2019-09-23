@@ -1,4 +1,4 @@
-package com.course.bvtcase;
+package com.course.bvtcase.productmanagement;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
@@ -6,13 +6,10 @@ import com.course.utils.ConfigFile;
 import com.course.utils.DataIdFile;
 import com.course.utils.GetRandom;
 import com.course.utils.TokenFile;
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpPut;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 import org.testng.Assert;
@@ -20,7 +17,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;

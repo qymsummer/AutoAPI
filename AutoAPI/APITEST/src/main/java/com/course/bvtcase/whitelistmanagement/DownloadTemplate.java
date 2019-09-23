@@ -1,9 +1,8 @@
-package com.course.bvtcase;
+package com.course.bvtcase.whitelistmanagement;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
-import com.course.utils.DataIdFile;
 import com.course.utils.TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -39,12 +38,13 @@ public class DownloadTemplate {
         HttpResponse response =  TestConfig.client.execute (httpGet);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        System.out.println("测试结果:"+"\t"+result);
+        //System.out.println("测试结果:"+"\t"+result);
         boolean status = result.contains("docProps/app.xmlPK");
         int flag = 1;
         if(status){
             flag = 0;
         }
+        System.out.println(flag);
         //判断
         Assert.assertEquals(0,flag);
     }

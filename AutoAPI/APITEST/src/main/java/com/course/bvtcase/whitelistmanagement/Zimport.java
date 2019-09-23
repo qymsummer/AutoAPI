@@ -1,4 +1,4 @@
-package com.course.bvtcase;
+package com.course.bvtcase.whitelistmanagement;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;

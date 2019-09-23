@@ -1,4 +1,4 @@
-package com.course.bvtcase;
+package com.course.bvtcase.login;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
@@ -11,7 +11,6 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
-
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -24,8 +23,8 @@ import java.util.List;
 
 public class Login {
 
-    private static String account = "TLCB114567";
-    private static String password = "TLCB114567";
+    private static String account = "TLCBa444565";
+    private static String password = "TLCBa444565";
     private static String userType = "1";
 
     @BeforeTest

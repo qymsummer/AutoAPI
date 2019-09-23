@@ -4,47 +4,47 @@
 <suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
     <test name="供需平台测试用例">
         <classes>
-            <class name="com.course.bvtcase.Login">
+            <class name="com.course.bvtcase.login.Login">
                 <methods>
                     <include name="loginCase"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.AddProduct">
+            <class name="com.course.bvtcase.productmanagement.AddProduct">
                 <methods>
                     <include name="runAddProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.UpdateProduct">
+            <class name="com.course.bvtcase.productmanagement.UpdateProduct">
                 <methods>
                     <include name="updateProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.LookProduct">
+            <class name="com.course.bvtcase.productmanagement.LookProduct">
                 <methods>
                     <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.LookWhiteProductList">
+            <class name="com.course.bvtcase.whitelistmanagement.LookWhiteProductList">
                 <methods>
                     <include name="lookWhiteProductList"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.LookWhiteList">
+            <class name="com.course.bvtcase.whitelistmanagement.LookWhiteList">
                 <methods>
                     <include name="lookWhiteList"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.LookWhiteEnterPriseList">
+            <class name="com.course.bvtcase.whitelistmanagement.LookWhiteEnterPriseList">
                 <methods>
                     <include name="lookWhiteEnterPriseList"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.Zimport">
+            <class name="com.course.bvtcase.whitelistmanagement.Zimport">
                 <methods>
                     <include name="importWhiteListUrl"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.DownloadTemplate">
+            <class name="com.course.bvtcase.whitelistmanagement.DownloadTemplate">
                 <methods>
                     <include name="downloadTemplate"/>
                 </methods>

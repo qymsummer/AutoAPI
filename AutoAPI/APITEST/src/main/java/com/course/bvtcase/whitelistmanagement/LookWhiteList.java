@@ -1,4 +1,4 @@
-package com.course.bvtcase;
+package com.course.bvtcase.whitelistmanagement;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
@@ -13,21 +13,20 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class LookWhiteProductList {
+public class LookWhiteList {
     @BeforeTest(
-        description = "查看白名单产品列表"
+            description = "查看白名单列表"
     )
     public void beforeTest() {
-
-        TestConfig.lookWhiteProductList = ConfigFile.getUrl(InterfaceName.LOOKWHITEPRODUCTLIST);
-
+        TestConfig.lookWhiteList = ConfigFile.getUrl(InterfaceName.LOOKWHITELIST);
     }
     @AfterTest
     public void afterTest(){
+
     }
-    @Test(groups = "lookWhiteProductList",dependsOnGroups = "loginCase",description = "查看白名单产品列表测试")
-    public void lookWhiteProductList() throws Exception {
-        HttpGet httpGet = new HttpGet(TestConfig.lookWhiteProductList);
+    @Test(groups = "lookWhiteList",dependsOnGroups = "loginCase",description = "查看白名单列表测试")
+    public void lookWhiteList() throws Exception {
+        HttpGet httpGet = new HttpGet(TestConfig.lookWhiteList);
         String name="jwtToken";
         String value = TokenFile.readFile();
         String result;
