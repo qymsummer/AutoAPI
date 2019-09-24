@@ -34,12 +34,11 @@ public class Zimport {
     public void afterTest(){
 
     }
-    @Test(groups = "importWhiteListUrl",dependsOnGroups = "loginCase")
+    @Test(groups = "importWhiteListUrl",dependsOnGroups = "loginCaseDb")
     public void importWhiteListUrl() throws Exception {
         HttpPost httpPost = new HttpPost(TestConfig.importwhitelistUrl);
         MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create();
         File file = new File("C:\\Data\\白名单模板.xlsx");
-        System.out.println("==========");
         System.out.println(file);
 
         multipartEntityBuilder.addBinaryBody("file",file);

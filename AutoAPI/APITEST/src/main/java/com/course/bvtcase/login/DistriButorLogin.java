@@ -21,10 +21,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Login {
+public class DistriButorLogin {
 
-    private static String account = "TLCBa444565";
-    private static String password = "TLCBa444565";
+    private static String account = "TLCB114567";
+    private static String password = "TLCB114567";
     private static String userType = "1";
 
     @BeforeTest
@@ -47,8 +47,8 @@ public class Login {
         String ticket = (String) ticketlist.get("ticket");
         return ticket;
     }
-    @Test(groups = "loginCase", description = "用户登录成功")
-    public void loginCase() throws Exception {
+    @Test(groups = "loginCaseDb", description = "用户登录成功")
+    public void loginCaseDb() throws Exception {
         String token = getToken();
         TokenFile.witerToken(token);
     }

@@ -25,6 +25,12 @@ public class TestConfig {
     public static String importwhitelistUrl;
     //模版下载
     public static String downloadTemplateUrl;
+    //产品上下架
+    public static String productShelvesUrl;
+    //上下架所需参数
+    public static String paramUrl;
+    //退出登录
+    public static String loginOut;
 
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();

@@ -49,8 +49,18 @@ public class ConfigFile {
         if (name == InterfaceName.DOWNLOADTEMPLATE) {
             uri = bundle.getString("downloadTemplate.uri");
         }
+        if (name == InterfaceName.PRODUCTSHELVES) {
+            uri = bundle.getString("productshelves.uri");
+        }
+        if (name == InterfaceName.LOGINOUT) {
+            uri = bundle.getString("logout.uri");
+        }
 
         testUrl = address + uri;
         return testUrl;
+    }
+    public static String getParams(){
+        String params = bundle.getString("param.uri");
+        return params;
     }
 }

@@ -4,6 +4,7 @@ import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
 import com.course.utils.TokenFile;
+import com.mongodb.operation.FsyncUnlockOperation;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -25,12 +26,10 @@ public class DownloadTemplate {
     @AfterTest
     public void afterTest(){
     }
-    @Test(groups = "downloadTemplate",dependsOnGroups = "loginCase",description = "查看白名单企业列表测试")
+    @Test(groups = "downloadTemplate",dependsOnGroups = "loginCaseDb",description = "查看白名单企业列表测试")
     public void downloadTemplate() throws Exception {
         URIBuilder builder = new URIBuilder(TestConfig.downloadTemplateUrl);
-        //String dataId = DataIdFile.readFile();
         builder.addParameter("templateType","WHITE_LIST");
-        //builder.addParameter("pageSize","10");
         HttpGet httpGet = new HttpGet(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile();
@@ -44,6 +43,8 @@ public class DownloadTemplate {
         if(status){
             flag = 0;
         }
+        System.out.println(result);
+
         System.out.println(flag);
         //判断
         Assert.assertEquals(0,flag);

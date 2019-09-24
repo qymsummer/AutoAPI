@@ -32,7 +32,7 @@ public class AddProduct {
     public void afterTest(){
 
     }
-    @Test(groups = "addProduct",dependsOnGroups = "loginCase",description = "添加用户接口测试")
+    @Test(groups = "addProduct",dependsOnGroups = "loginCaseDb",description = "添加用户接口测试")
     public void runAddProduct() throws Exception {
         String result = addProduct();
         DataIdFile.witerDataId(result);

@@ -25,7 +25,7 @@ public class LookWhiteProductList {
     @AfterTest
     public void afterTest(){
     }
-    @Test(groups = "lookWhiteProductList",dependsOnGroups = "loginCase",description = "查看白名单产品列表测试")
+    @Test(groups = "lookWhiteProductList",dependsOnGroups = "loginCaseDb",description = "查看白名单产品列表测试")
     public void lookWhiteProductList() throws Exception {
         HttpGet httpGet = new HttpGet(TestConfig.lookWhiteProductList);
         String name="jwtToken";

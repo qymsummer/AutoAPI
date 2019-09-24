@@ -29,7 +29,7 @@ public class UpdateProduct {
     @AfterTest
     public void afterTest(){
     }
-    @Test(groups = "updateProduct",dependsOnGroups = "loginCase")
+    @Test(groups = "updateProduct",dependsOnGroups = "loginCaseDb")
     public void updateProduct() throws Exception {
         HttpPut httpPut = new HttpPut(TestConfig.updateProductUrl);
         String random= GetRandom.getRandomChar(5);

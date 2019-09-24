@@ -7,28 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLoginOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginLA/LoanApproverLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/DownloadTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteEnterPriseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/LookWhiteProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/Zimport.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/Zimport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/Zimport.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/Zimport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/AddProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/DownloadTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteEnterPriseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/LookWhiteProductList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/UpdateProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/Zimport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/LookProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/LookProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/DownloadTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/DownloadTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/Zimport.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/Zimport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
@@ -80,24 +89,24 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
+      <recent name="C:\软件\AutoAPI\Chapter9" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.course.bvtcase.loginLA" />
+      <recent name="com.course.bvtcase.login" />
+      <recent name="com.course.bvtcase.whitelistmanagement" />
+      <recent name="com.course.bvtcase.productmanagement" />
+      <recent name="com.course.other" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\whitelistmanagement" />
       <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\productmanagement" />
       <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
       <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
       <recent name="C:\GITMASTER\AutoAPI" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.course.bvtcase.login" />
-      <recent name="com.course.bvtcase.whitelistmanagement" />
-      <recent name="com.course.bvtcase.productmanagement" />
-      <recent name="com.course.other" />
-      <recent name="com.course.testcase" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
-      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
-      <recent name="C:\软件\AutoAPI\Chapter9" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -202,8 +211,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.DownloadTemplate.downloadTemplate" />
         <item itemvalue="TestNG.Ticket" />
+        <item itemvalue="TestNG.DownloadTemplate.downloadTemplate" />
         <item itemvalue="TestNG.Zimport.importWhiteListUrl" />
         <item itemvalue="TestNG.LookWhiteEnterPriseList.lookWhiteProductList" />
       </list>
