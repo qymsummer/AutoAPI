@@ -30,13 +30,13 @@ public class ProductShelvesUrl {
     @AfterTest
     public void afterTest(){
     }
-    public static  String getUrl() throws Exception {
+    public static String getUrl() throws Exception {
         String url = TestConfig.productShelvesUrl;
         String dataId = DataIdFile.readFile();
         String param = ConfigFile.getParams();
         System.out.println(dataId);
         String testUrl = url+dataId+param;
-        testUrl=testUrl.replaceAll("\n", "");
+        testUrl =testUrl.replaceAll("\n", "");
         System.out.println(testUrl);
         return testUrl;
     }
