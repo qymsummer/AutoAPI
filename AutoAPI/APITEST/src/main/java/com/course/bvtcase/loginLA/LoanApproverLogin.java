@@ -22,8 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoanApproverLogin {
-    private static String account = "TLCB114568";
-    private static String password = "TLCB114568";
+    private static String account = "TLCBa444564";
+    private static String password = "TLCBa444564";
     private static String userType = "1";
 
     @BeforeTest

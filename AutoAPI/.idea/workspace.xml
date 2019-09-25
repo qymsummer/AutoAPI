@@ -7,38 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLoginOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginLA/LoanApproverLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/Zimport.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/Zimport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginLA/LoanApproverLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginLA/LoanApproverLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/LookProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/LookProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/DownloadTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/DownloadTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteEnterPriseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/LookWhiteProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/Zimport.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/Zimport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/login/DistriButorLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/login/DistriButorLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/loginLA/LoanApproverLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/loginLA/LoanApproverLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ProductShelvesUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ProductShelvesUrl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,18 +132,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LookWhiteEnterPriseList.lookWhiteProductList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductShelvesUrl.productShelvesUrl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.bvtcase.*" />
+          <option name="PATTERN" value="com.course.bvtcase.productmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.bvtcase" />
-      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.LookWhiteEnterPriseList" />
-      <option name="METHOD_NAME" value="lookWhiteProductList" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="com.course.bvtcase.productmanagement" />
+      <option name="MAIN_CLASS_NAME" value="com.course.bvtcase.productmanagement.ProductShelvesUrl" />
+      <option name="METHOD_NAME" value="productShelvesUrl" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
@@ -211,10 +190,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.ProductShelvesUrl.productShelvesUrl" />
         <item itemvalue="TestNG.Ticket" />
         <item itemvalue="TestNG.DownloadTemplate.downloadTemplate" />
         <item itemvalue="TestNG.Zimport.importWhiteListUrl" />
-        <item itemvalue="TestNG.LookWhiteEnterPriseList.lookWhiteProductList" />
       </list>
     </recent_temporary>
   </component>
