@@ -15,10 +15,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
 import java.util.List;
-import java.util.Locale;
-import java.util.ResourceBundle;
+
 
 public class ProductShelvesUrl {
 
