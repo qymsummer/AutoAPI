@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
  */
 public class ConfigFile {
 
-    private static ResourceBundle bundle = ResourceBundle.getBundle("application", Locale.CHINA);
+    private static ResourceBundle bundle = ResourceBundle.getBundle("applicationone", Locale.CHINA);
     ;
 
     //传进来的name，必须是InterfaceName类中枚举的接口名，

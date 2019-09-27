@@ -28,12 +28,13 @@ public class UpdateProduct {
     }
     @AfterTest
     public void afterTest(){
+
     }
     @Test(groups = "updateProduct",dependsOnGroups = "loginCaseDb")
     public void updateProduct() throws Exception {
         HttpPut httpPut = new HttpPut(TestConfig.updateProductUrl);
         String random= GetRandom.getRandomChar(5);
-        String productName= "测试修改"+random;
+        String productName= "修改"+random;
         String dataId = DataIdFile.readFile();
         Map<String, Object> map = new LinkedHashMap<String, Object>();
         map.put("id",dataId);

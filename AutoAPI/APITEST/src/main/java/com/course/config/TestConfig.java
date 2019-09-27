@@ -5,6 +5,9 @@ import org.apache.http.client.CookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 public class TestConfig {
+    /*
+    银行端URL
+     */
     //获取TICKET URL
     public static String ticketurl;
     //登录URL
@@ -31,6 +34,11 @@ public class TestConfig {
     public static String paramUrl;
     //退出登录
     public static String loginOut;
+    /*
+    H5URL
+     */
+    public static String h5Loign;
+
 
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();

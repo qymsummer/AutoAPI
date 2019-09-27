@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class LookProduct {
     @BeforeTest(
-            description = "获取到添加产品的url"
+            description = "获取到查看产品的url"
     )
     public void beforeTest() {
 

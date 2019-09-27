@@ -7,8 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginh5/H5Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFileH5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/resources/applicationone.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/LookProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement/DownloadTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/GetRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/GetRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/applicationh5.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/LookProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/LookProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ProductShelvesUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ProductShelvesUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/DownloadTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/whitelistmanagement/DownloadTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/ConfigFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/GetRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/utils/GetRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,31 +76,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Chapter13/src/main/java/com/course" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement" />
+    <property name="last_opened_file_path" value="C:/xxx" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
-      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
-      <recent name="C:\软件\AutoAPI\Chapter9" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\whitelistmanagement" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\productmanagement" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
+      <recent name="C:\GITMASTER\AutoAPI" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.course.utils" />
       <recent name="com.course.bvtcase.loginLA" />
       <recent name="com.course.bvtcase.login" />
       <recent name="com.course.bvtcase.whitelistmanagement" />
       <recent name="com.course.bvtcase.productmanagement" />
-      <recent name="com.course.other" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\whitelistmanagement" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\productmanagement" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
+      <recent name="C:\软件\AutoAPI\Chapter9" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -183,8 +207,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.ProductShelvesUrl.productShelvesUrl" />
         <item itemvalue="TestNG.Ticket" />
+        <item itemvalue="TestNG.ProductShelvesUrl.productShelvesUrl" />
         <item itemvalue="TestNG.DownloadTemplate.downloadTemplate" />
         <item itemvalue="TestNG.Zimport.importWhiteListUrl" />
       </list>
@@ -221,6 +245,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/GITMASTER/AutoAPI/APITEST/src/main/java/com/course/bvtcase/whitelistmanagement" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -229,6 +278,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">

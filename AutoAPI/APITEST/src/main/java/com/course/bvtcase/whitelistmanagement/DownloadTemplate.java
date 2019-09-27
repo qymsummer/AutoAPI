@@ -26,7 +26,7 @@ public class DownloadTemplate {
     @AfterTest
     public void afterTest(){
     }
-    @Test(groups = "downloadTemplate",dependsOnGroups = "loginCaseDb",description = "查看白名单企业列表测试")
+    @Test(groups = "downloadTemplate",dependsOnGroups = "loginCaseDb",description = "下载模版测试")
     public void downloadTemplate() throws Exception {
         URIBuilder builder = new URIBuilder(TestConfig.downloadTemplateUrl);
         builder.addParameter("templateType","WHITE_LIST");

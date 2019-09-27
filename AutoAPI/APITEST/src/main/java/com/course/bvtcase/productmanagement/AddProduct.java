@@ -32,7 +32,7 @@ public class AddProduct {
     public void afterTest(){
 
     }
-    @Test(groups = "addProduct",dependsOnGroups = "loginCaseDb",description = "添加用户接口测试")
+    @Test(groups = "addProduct",dependsOnGroups = "loginCaseDb",description = "添加产品测试")
     public void runAddProduct() throws Exception {
         String result = addProduct();
         DataIdFile.witerDataId(result);
@@ -42,7 +42,7 @@ public class AddProduct {
         HttpPost httpPost = new HttpPost(TestConfig.addProductUrl);
         JSONObject params = new JSONObject();
         String random= GetRandom.getRandomChar(5);
-        String productName= "测试添加"+random;
+        String productName= "添加"+random;
         params.put("repaymentMeansIds","9");
         params.put("loanUseIds","1,4");
         params.put("guaranteeMeansIds","5");

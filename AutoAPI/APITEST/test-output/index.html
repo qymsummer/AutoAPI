@@ -49,7 +49,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 25, 2019 06:33:57 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 27, 2019 06:46:04 PM</span>
 				</a>
 			</li>
 			<li>
@@ -147,10 +147,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>8</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='61.538%'><span class='strong'>8</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>4</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='38.462%'>5</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -162,10 +162,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>8</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='61.538%'><span class='strong'>8</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>4</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='38.462%'>5</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -182,15 +182,77 @@
 				
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>runAddProduct</span>
-						<span class='test-time'>Sep 25, 2019 06:33:58 PM</span>
+						<span class='test-name'>getToken</span>
+						<span class='test-time'>Sep 27, 2019 06:46:05 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+67ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:05 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:05 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+296ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>6:46:10 PM</td>
+					<td class='step-details'><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.course.bvtcase.loginh5.H5Login.getToken(H5Login.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>runAddProduct</span>
+						<span class='test-time'>Sep 27, 2019 06:46:05 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Sep 27, 2019 06:46:05 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:06 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+82ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -209,7 +271,7 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -248,17 +310,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>updateProduct</span>
-						<span class='test-time'>Sep 25, 2019 06:33:58 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:06 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+38ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:06 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:06 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+42ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -277,7 +339,7 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -285,7 +347,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:389)
 	at org.testng.Assert.assertEquals(Assert.java:399)
-	at com.course.bvtcase.productmanagement.UpdateProduct.updateProduct(UpdateProduct.java:85)
+	at com.course.bvtcase.productmanagement.UpdateProduct.updateProduct(UpdateProduct.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -315,17 +377,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
 					<div class='test-heading'>
 						<span class='test-name'>importWhiteListUrl</span>
-						<span class='test-time'>Sep 25, 2019 06:34:00 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:09 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:34:00 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+46ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:09 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+120ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -344,7 +406,7 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -382,17 +444,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
 					<div class='test-heading'>
 						<span class='test-name'>productShelvesUrl</span>
-						<span class='test-time'>Sep 25, 2019 06:34:01 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:10 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+88ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+98ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -411,7 +473,7 @@
 			<tbody>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -449,17 +511,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>loginCaseDb</span>
-						<span class='test-time'>Sep 25, 2019 06:33:57 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:04 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:33:57 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+970ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:04 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:05 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+90ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -478,7 +540,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -488,17 +550,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
 					<div class='test-heading'>
 						<span class='test-name'>lookProduct</span>
-						<span class='test-time'>Sep 25, 2019 06:33:58 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:06 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+37ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:06 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:06 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+247ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -517,7 +579,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -527,17 +589,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>lookWhiteProductList</span>
-						<span class='test-time'>Sep 25, 2019 06:33:58 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:06 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:33:58 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:33:59 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+351ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:06 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+390ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -556,7 +618,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -566,17 +628,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>lookWhiteList</span>
-						<span class='test-time'>Sep 25, 2019 06:33:59 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:07 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:33:59 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:00 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+618ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:07 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:08 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+714ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -595,7 +657,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -605,17 +667,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>lookWhiteEnterPriseList</span>
-						<span class='test-time'>Sep 25, 2019 06:34:00 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:08 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:34:00 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:00 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+466ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:08 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+578ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -634,7 +696,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -644,17 +706,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
 					<div class='test-heading'>
 						<span class='test-name'>downloadTemplate</span>
-						<span class='test-time'>Sep 25, 2019 06:34:01 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:09 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+57ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:09 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+345ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -673,7 +735,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -683,17 +745,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
 					<div class='test-heading'>
 						<span class='test-name'>loginOut</span>
-						<span class='test-time'>Sep 25, 2019 06:34:01 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:10 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+27ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+26ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -712,7 +774,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -722,17 +784,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
 					<div class='test-heading'>
 						<span class='test-name'>loginCaseLA</span>
-						<span class='test-time'>Sep 25, 2019 06:34:01 PM</span>
+						<span class='test-time'>Sep 27, 2019 06:46:10 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label end-time'>Sep 25, 2019 06:34:01 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+66ms</span>
+	<span class='label start-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label end-time'>Sep 27, 2019 06:46:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+63ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -751,7 +813,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>6:34:01 PM</td>
+					<td class='timestamp'>6:46:10 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -834,8 +896,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:33:58 PM</td>
-										<td class='linked' test-id='1'>runAddProduct</td>
+										<td>Sep 27, 2019 06:46:05 PM</td>
+										<td class='linked' test-id='2'>runAddProduct</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -868,8 +930,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:33:58 PM</td>
-										<td class='linked' test-id='2'>updateProduct</td>
+										<td>Sep 27, 2019 06:46:06 PM</td>
+										<td class='linked' test-id='3'>updateProduct</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -902,8 +964,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:34:00 PM</td>
-										<td class='linked' test-id='3'>importWhiteListUrl</td>
+										<td>Sep 27, 2019 06:46:09 PM</td>
+										<td class='linked' test-id='4'>importWhiteListUrl</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -936,8 +998,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:34:01 PM</td>
-										<td class='linked' test-id='4'>productShelvesUrl</td>
+										<td>Sep 27, 2019 06:46:10 PM</td>
+										<td class='linked' test-id='5'>productShelvesUrl</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -970,8 +1032,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:33:57 PM</td>
-										<td class='linked' test-id='5'>loginCaseDb</td>
+										<td>Sep 27, 2019 06:46:04 PM</td>
+										<td class='linked' test-id='6'>loginCaseDb</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1004,8 +1066,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:33:58 PM</td>
-										<td class='linked' test-id='6'>lookProduct</td>
+										<td>Sep 27, 2019 06:46:06 PM</td>
+										<td class='linked' test-id='7'>lookProduct</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1038,8 +1100,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:33:58 PM</td>
-										<td class='linked' test-id='7'>lookWhiteProductList</td>
+										<td>Sep 27, 2019 06:46:06 PM</td>
+										<td class='linked' test-id='8'>lookWhiteProductList</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1072,8 +1134,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:33:59 PM</td>
-										<td class='linked' test-id='8'>lookWhiteList</td>
+										<td>Sep 27, 2019 06:46:07 PM</td>
+										<td class='linked' test-id='9'>lookWhiteList</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1106,8 +1168,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:34:00 PM</td>
-										<td class='linked' test-id='9'>lookWhiteEnterPriseList</td>
+										<td>Sep 27, 2019 06:46:08 PM</td>
+										<td class='linked' test-id='10'>lookWhiteEnterPriseList</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1140,8 +1202,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:34:01 PM</td>
-										<td class='linked' test-id='10'>downloadTemplate</td>
+										<td>Sep 27, 2019 06:46:09 PM</td>
+										<td class='linked' test-id='11'>downloadTemplate</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1174,8 +1236,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:34:01 PM</td>
-										<td class='linked' test-id='11'>loginOut</td>
+										<td>Sep 27, 2019 06:46:10 PM</td>
+										<td class='linked' test-id='12'>loginOut</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1208,8 +1270,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 25, 2019 06:34:01 PM</td>
-										<td class='linked' test-id='12'>loginCaseLA</td>
+										<td>Sep 27, 2019 06:46:10 PM</td>
+										<td class='linked' test-id='13'>loginCaseLA</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1257,7 +1319,7 @@
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
                                 <span class='exception-name'>java.lang.AssertionError</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>4</span></span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>5</span></span>
                             </div>
                             <div class='exception-content hide'>
                                 <div class='exception-tests'>
@@ -1271,8 +1333,41 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 25, 2019 06:33:58 PM</td>
-                                                        <td class='linked' test-id='1'>runAddProduct</td>
+                                                        <td>Sep 27, 2019 06:46:05 PM</td>
+                                                        <td class='linked' test-id='1'>getToken</td>
+                                                        <td><pre><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.course.bvtcase.loginh5.H5Login.getToken(H5Login.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></pre></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sep 27, 2019 06:46:05 PM</td>
+                                                        <td class='linked' test-id='2'>runAddProduct</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -1305,8 +1400,8 @@
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Sep 25, 2019 06:33:58 PM</td>
-                                                        <td class='linked' test-id='2'>updateProduct</td>
+                                                        <td>Sep 27, 2019 06:46:06 PM</td>
+                                                        <td class='linked' test-id='3'>updateProduct</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -1314,7 +1409,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:389)
 	at org.testng.Assert.assertEquals(Assert.java:399)
-	at com.course.bvtcase.productmanagement.UpdateProduct.updateProduct(UpdateProduct.java:85)
+	at com.course.bvtcase.productmanagement.UpdateProduct.updateProduct(UpdateProduct.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1338,8 +1433,8 @@
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Sep 25, 2019 06:34:00 PM</td>
-                                                        <td class='linked' test-id='3'>importWhiteListUrl</td>
+                                                        <td>Sep 27, 2019 06:46:09 PM</td>
+                                                        <td class='linked' test-id='4'>importWhiteListUrl</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -1371,8 +1466,8 @@
 </pre></pre></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Sep 25, 2019 06:34:01 PM</td>
-                                                        <td class='linked' test-id='4'>productShelvesUrl</td>
+                                                        <td>Sep 27, 2019 06:46:10 PM</td>
+                                                        <td class='linked' test-id='5'>productShelvesUrl</td>
                                                         <td><pre><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -1427,31 +1522,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>12</div>
+					<div class='panel-lead'>13</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>12</div>
+					<div class='panel-lead'>13</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 25, 2019 06:33:57 PM</div>
+					<div class='panel-lead'>Sep 27, 2019 06:46:04 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 25, 2019 06:33:58 PM</div>
+			 		<div class='panel-lead'>Sep 27, 2019 06:46:05 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>970ms</div>
+					<div class='panel-lead'>1,090ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1551,21 +1646,21 @@
 		<script>
 			var statusGroup = {
 				passParent: 8,
-				failParent: 4,
+				failParent: 5,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 4,
+				exceptionsParent: 5,
 				
 				passChild: 8,
-				failChild: 4,
+				failChild: 5,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 4,
+				exceptionsChild: 5,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

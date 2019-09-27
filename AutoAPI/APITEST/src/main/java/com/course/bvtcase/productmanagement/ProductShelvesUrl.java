@@ -22,22 +22,24 @@ public class ProductShelvesUrl {
 
     @BeforeTest(description = "获取到产品上下架的url")
     public void beforeTest(){
-
         TestConfig.productShelvesUrl = ConfigFile.getUrl(InterfaceName.PRODUCTSHELVES);
     }
     @AfterTest
     public void afterTest(){
+
     }
+
     public static String getUrl() throws Exception {
         String url = TestConfig.productShelvesUrl;
         String dataId = DataIdFile.readFile();
         String param = ConfigFile.getParams();
         System.out.println(dataId);
         String testUrl = url+dataId+param;
-        testUrl =testUrl.replaceAll("\n", "");
+        testUrl = testUrl.replaceAll("\n", "");
         System.out.println(testUrl);
         return testUrl;
     }
+
     @Test(groups = "productShelvesUrl",dependsOnGroups="LoanApproverloginCase",description = "产品上下架测试")
     public void productShelvesUrl() throws Exception {
         HttpPut httpPut = new HttpPut(getUrl());
