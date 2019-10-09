@@ -64,9 +64,9 @@
                     <include name="productShelvesUrl"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.loginh5.H5Login">
+            <class name="com.course.bvtcase.productmanagement.ApplyForProductH5">
                 <methods>
-                    <include name="getToken"/>
+                    <include name="applyForProductH5"/>
                 </methods>
             </class>
         </classes>
