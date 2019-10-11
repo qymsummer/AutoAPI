@@ -51,6 +51,7 @@ public class AddProduct {
         params.put("name",productName);
         params.put("termRangeStart","1");
         params.put("termRangeEnd","3");
+        params.put("loanUse","信息");
         params.put("annualInterestRangeStart","4");
         params.put("annualInterestRangeEnd","5");
         params.put("quotaRangeEnd","1000");

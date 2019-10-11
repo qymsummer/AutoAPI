@@ -44,6 +44,7 @@ public class UpdateProduct {
         map.put("districtId",null);
         map.put("termRangeStart","1");
         map.put("termRangeEnd","3");
+        map.put("loanUse","信息修改");
         map.put("annualInterestRangeEnd","8.01");
         map.put("annualInterestRangeStart","");
         map.put("quotaRangeEnd","111");
