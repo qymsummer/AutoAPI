@@ -2,10 +2,7 @@ package com.course.bvtcase.productmanagement;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
-import com.course.utils.ConfigFile;
-import com.course.utils.DataIdFile;
-import com.course.utils.GetRandom;
-import com.course.utils.TokenFile;
+import com.course.utils.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPut;
 import org.apache.http.cookie.Cookie;
@@ -32,9 +29,14 @@ public class UpdateProduct {
     }
     @Test(groups = "updateProduct",dependsOnGroups = "loginCaseDb")
     public void updateProduct() throws Exception {
+        String getProductName = Product();
+        GetProductName.witerProductName(getProductName);
+    }
+    public static String Product() throws Exception {
         HttpPut httpPut = new HttpPut(TestConfig.updateProductUrl);
         String random= GetRandom.getRandomChar(5);
-        String productName= "修改"+random;
+        String productName= "新账号修改"+random;
+        System.out.println(productName);
         String dataId = DataIdFile.readFile();
         Map<String, Object> map = new LinkedHashMap<String, Object>();
         map.put("id",dataId);
@@ -44,7 +46,7 @@ public class UpdateProduct {
         map.put("districtId",null);
         map.put("termRangeStart","1");
         map.put("termRangeEnd","3");
-        map.put("loanUse","信息修改");
+        map.put("loanUse","企业融资");
         map.put("annualInterestRangeEnd","8.01");
         map.put("annualInterestRangeStart","");
         map.put("quotaRangeEnd","111");
@@ -64,7 +66,7 @@ public class UpdateProduct {
         map.put("fullProvince",false);
         map.put("applyRequirementIds",new String[] {});
         map.put("enterpriseAccessRequirementList",new String[] {});
-        map.put("areaIds",new String[]{"1"});
+        map.put("areaIds",new String[]{"330199"});
         //null作为value时，转换成json后不会保存
         JSONObject params = new JSONObject(map);
         httpPut.setHeader("content-type", "application/json");
@@ -85,6 +87,6 @@ public class UpdateProduct {
         JSONObject resultJson = new JSONObject(result);
         int  success = (int) resultJson.get("code");//判断
         Assert.assertEquals(0,success);
-
+        return productName;
     }
 }

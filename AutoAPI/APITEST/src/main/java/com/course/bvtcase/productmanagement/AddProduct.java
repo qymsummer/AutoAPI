@@ -42,7 +42,7 @@ public class AddProduct {
         HttpPost httpPost = new HttpPost(TestConfig.addProductUrl);
         JSONObject params = new JSONObject();
         String random= GetRandom.getRandomChar(5);
-        String productName= "添加"+random;
+        String productName= "新账号添加"+random;
         params.put("repaymentMeansIds","9");
         params.put("loanUseIds","1,4");
         params.put("guaranteeMeansIds","5");

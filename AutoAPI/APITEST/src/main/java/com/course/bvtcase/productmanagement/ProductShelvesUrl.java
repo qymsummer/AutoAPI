@@ -55,6 +55,7 @@ public class ProductShelvesUrl {
         HttpResponse response = TestConfig.client.execute (httpPut);
         //获取响应结果
         result = EntityUtils.toString (response.getEntity(),"utf-8");
+        System.out.println(result);
         JSONObject resultJson = new JSONObject (result);
         int success = (int) resultJson.get("code");
         //判断

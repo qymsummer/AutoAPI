@@ -3,6 +3,8 @@ package com.course.bvtcase.productmanagement;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFileH5;
+import com.course.utils.GetProductName;
+import com.course.utils.TokenFile;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +13,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.util.List;
 
 public class ApplyForProductH5 {
@@ -18,8 +21,7 @@ public class ApplyForProductH5 {
 
     @BeforeTest
     public void beforeTest() {
-
-            TestConfig.h5Loign = ConfigFileH5.getUrl(InterfaceName.H5LOGIN);
+        TestConfig.h5Loign = ConfigFileH5.getUrl(InterfaceName.H5LOGIN);
     }
 
     @AfterTest
@@ -27,10 +29,17 @@ public class ApplyForProductH5 {
 
     }
     @Test(groups = "applyForProductH5",dependsOnGroups="LoanApproverloginCase",description = "H5申请产品UI")
-    public void applyForProductH5() {
+    public void applyForProductH5() throws Exception {
         WebDriver driver;
         driver = new ChromeDriver();
         driver.get(TestConfig.h5Loign);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        /*
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -52,6 +61,8 @@ public class ApplyForProductH5 {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+
+         */
         List<WebElement> ButtonElement = driver.findElements(By.className("tabbar-text"));
         ButtonElement.get(3).click();
         try {
@@ -73,7 +84,16 @@ public class ApplyForProductH5 {
 
         ButtonElement3.get(1).click();
         try {
-            Thread.sleep(1500);
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        String value = GetProductName.readProductName();
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[1]/div[1]/div[2]/input")).sendKeys(value);
+        driver.findElement(By.className("iconchaxun")).click();
+        try {
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -116,6 +136,7 @@ public class ApplyForProductH5 {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        /*
         driver.findElement(By.id("placeholder")).click();
         try {
             Thread.sleep(1500);
@@ -131,6 +152,8 @@ public class ApplyForProductH5 {
             e.printStackTrace();
         }
         ButtonElement4.get(1).click();
+
+         */
         try {
             Thread.sleep(1500);
         } catch (InterruptedException e) {
@@ -147,7 +170,7 @@ public class ApplyForProductH5 {
         }
         driver.findElement(By.className("icon")).click();
         try {
-            Thread.sleep(1500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
