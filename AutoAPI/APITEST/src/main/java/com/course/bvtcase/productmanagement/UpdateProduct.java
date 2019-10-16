@@ -34,8 +34,8 @@ public class UpdateProduct {
     }
     public static String Product() throws Exception {
         HttpPut httpPut = new HttpPut(TestConfig.updateProductUrl);
-        String random= GetRandom.getRandomChar(5);
-        String productName= "新账号修改"+random;
+        String random= GetRandom.getRandomChar(7);
+        String productName= "修改"+random;
         System.out.println(productName);
         String dataId = DataIdFile.readFile();
         Map<String, Object> map = new LinkedHashMap<String, Object>();

@@ -34,7 +34,7 @@ public class ApplyForProductH5 {
         driver = new ChromeDriver();
         driver.get(TestConfig.h5Loign);
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -71,8 +71,8 @@ public class ApplyForProductH5 {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        driver.findElement(By.id("username")).sendKeys("zjzwfwcsqy");
-        driver.findElement(By.id("password")).sendKeys("zjzwfwcsqy123");
+        driver.findElement(By.id("username")).sendKeys("123456789");
+        driver.findElement(By.id("password")).sendKeys("Timevale123");
         driver.findElement(By.id("commitBtn")).click();
         try {
             Thread.sleep(1500);
@@ -84,7 +84,7 @@ public class ApplyForProductH5 {
 
         ButtonElement3.get(1).click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -93,7 +93,7 @@ public class ApplyForProductH5 {
         driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[1]/div[1]/div[2]/input")).sendKeys(value);
         driver.findElement(By.className("iconchaxun")).click();
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -155,7 +155,7 @@ public class ApplyForProductH5 {
 
          */
         try {
-            Thread.sleep(1500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -170,7 +170,7 @@ public class ApplyForProductH5 {
         }
         driver.findElement(By.className("icon")).click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

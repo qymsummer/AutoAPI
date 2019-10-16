@@ -34,7 +34,6 @@ public class DistriButorLogin {
     }
     @AfterTest
     public void afterTest(){
-
     }
     //获取到ticket
     public static String getTicket() throws IOException {

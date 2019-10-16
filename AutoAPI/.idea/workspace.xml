@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/GetProductName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginLA/LoanApproverLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/loginLA/LoanApproverLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/AddProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ApplyForProductH5.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ApplyForProductH5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/ProductShelvesUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/productmanagement/UpdateProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application01.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application01.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application01.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/application01.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/login/DistriButorLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/login/DistriButorLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/loginLA/LoanApproverLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/loginLA/LoanApproverLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/AddProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ApplyForProductH5.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ApplyForProductH5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ProductShelvesUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/ProductShelvesUrl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/bvtcase/productmanagement/UpdateProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
