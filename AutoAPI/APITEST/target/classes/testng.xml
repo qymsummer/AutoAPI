@@ -4,74 +4,311 @@
 <suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
     <test name="供需平台测试用例">
         <classes>
-            <class name="com.course.bvtcase.login.DistriButorLogin">
-                <methods>
-                    <include name="loginCase"/>
-                </methods>
-            </class>
-            <class name="com.course.bvtcase.productmanagement.AddProduct">
-                <methods>
-                    <include name="runAddProduct"/>
-                </methods>
-            </class>
-            <class name="com.course.bvtcase.productmanagement.UpdateProduct">
-                <methods>
-                    <include name="updateProduct"/>
-                </methods>
-            </class>
-            <class name="com.course.bvtcase.productmanagement.LookProduct">
+            <class name="com.course.h5.bianlidai">
                 <methods>
                     <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.whitelistmanagement.LookWhiteProductList">
+            <class name="com.course.h5.changdaitong">
                 <methods>
-                    <include name="lookWhiteProductList"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.whitelistmanagement.LookWhiteList">
+            <class name="com.course.h5.changyedai">
                 <methods>
-                    <include name="lookWhiteList"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.whitelistmanagement.LookWhiteEnterPriseList">
+            <class name="com.course.h5.chengzhangdai">
                 <methods>
-                    <include name="lookWhiteEnterPriseList"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.whitelistmanagement.Zimport">
+            <class name="com.course.h5.chuangyedai">
                 <methods>
-                    <include name="importWhiteListUrl"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.whitelistmanagement.DownloadTemplate">
+            <class name="com.course.h5.diyaedai">
                 <methods>
-                    <include name="downloadTemplate"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.login.DistriButorLoginOut">
+            <class name="com.course.h5.edikuaidai">
                 <methods>
-                    <include name="loginOut"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.loginLA.LoanApproverLogin">
+            <class name="com.course.h5.fangdidianyidai">
                 <methods>
-                    <include name="loginCaseLA"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.productmanagement.ProductShelvesUrl">
+            <class name="com.course.h5.fangshandai">
                 <methods>
-                    <include name="productShelvesUrl"/>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.productmanagement.ApplyForProductH5">
+            <class name="com.course.h5.gaoqidai">
                 <methods>
-                    <include name="applyForProductH5"/>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+
+            <class name="com.course.h5.getigongshanghujingyingkuaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.gongyechangfanganjiedaikuan">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.jielidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.jielitongbao">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.jiesuanyundai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.jingyingkuaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kechuangdai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kechuangdaishangye">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kejidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.keyidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kuaijiedai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kuaijiediyadai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kuaiyidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.kuaiyidaixingyeyinhang">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.leyingfangdidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.lianliandai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.LookProductBankdiyakuaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.minsudai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.mintaiyinhang">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.miqixunhuandai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+
+            <class name="com.course.h5.nashuiedai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.paimaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.qihuitong">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.rongedai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.ruyuanqiyeqianqidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.sanniandai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.shanghuitong">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.shuijindai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.shuiyindai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.wangdaitong">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.wuyedai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xianshangdiyadai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xianshangshuirongtong">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xiaobenkuaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xiaoqiyeruyuananjiedaikuan">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xiaoshuidianxiangmdaikuan">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xiaoweikuaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xiaoweiwangdai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xinrongtong">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.xinyongyidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+
+            <class name="com.course.h5.yinliantoudai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.yinyongyidaiyouchu">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.yisudai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.yundidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.yunshuidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.yunxiaodai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.zhengcaidai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.zhongyinwangrongyi">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.zhujindai">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
+            <class name="com.course.h5.zhulidai">
+                <methods>
+                    <include name="lookProduct"/>
                 </methods>
             </class>
         </classes>
     </test>
-
 
     <!--添加测试报告监听器-->
     <listeners>

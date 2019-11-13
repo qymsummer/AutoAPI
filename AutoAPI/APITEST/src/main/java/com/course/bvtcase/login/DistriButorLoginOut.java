@@ -28,7 +28,7 @@ public class DistriButorLoginOut {
 
     }
 
-    @Test(groups="loginOut",dependsOnGroups = "loginCaseDb",description = "添加用户接口测试")
+    @Test(groups="loginOut",dependsOnGroups = "loginCaseDb",description = "用户退出登录")
     public void loginOut() throws Exception {
         HttpPost httpPost = new HttpPost(TestConfig.loginOut);
         String name="jwtToken";

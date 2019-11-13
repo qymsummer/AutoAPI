@@ -23,8 +23,8 @@ import java.util.List;
 
 public class DistriButorLogin {
 
-    private static String account = "ABC774562";
-    private static String password = "ABC774562";
+    private static String account = "ABC334562";
+    private static String password = "ABC334562";
     private static String userType = "1";
 
     @BeforeTest
