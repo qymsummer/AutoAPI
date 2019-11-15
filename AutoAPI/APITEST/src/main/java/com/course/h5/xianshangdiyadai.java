@@ -35,7 +35,6 @@ public class xianshangdiyadai {
 
         for (String temp : list){
             URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            String dataId = DataIdFile.readFile();
             builder.addParameter("bankId","20773");
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());

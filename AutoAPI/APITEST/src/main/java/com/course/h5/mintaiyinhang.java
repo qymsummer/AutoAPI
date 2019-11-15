@@ -35,7 +35,6 @@ public class mintaiyinhang {
 
         for (String temp : list){
             URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            String dataId = DataIdFile.readFile();
             builder.addParameter("bankId","9928");
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());

@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/H5TokenFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/diyakuaidai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kejitongbao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/List11.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/test/List11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/LookProductBankdiyakuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/LookProductBankdiyakuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/bianlidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/bianlidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changdaitong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changdaitong.java" afterDir="false" />
@@ -70,13 +70,7 @@
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhongyinwangrongyi.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhongyinwangrongyi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhujindai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhujindai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhulidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhulidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/LookProductBank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/jielidai.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/xianshangshuirongtong.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/yisudai.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/testng.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/List11.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/LookProductBankdiyakuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/LookProductBankdiyakuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/bianlidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/bianlidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changdaitong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changdaitong.class" afterDir="false" />
@@ -137,10 +131,6 @@
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhongyinwangrongyi.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhongyinwangrongyi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhujindai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhujindai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhulidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhulidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/LookProductBank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/jielidai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/xianshangshuirongtong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/yisudai.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
@@ -257,7 +247,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getigongshanghujingyingkuaidai" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="diyakuaidai" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
@@ -266,7 +256,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.getigongshanghujingyingkuaidai" />
+      <option name="MAIN_CLASS_NAME" value="com.course.h5.diyakuaidai" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -274,7 +264,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getigongshanghujingyingkuaidai.lookProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="kejitongbao" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
@@ -283,9 +273,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.getigongshanghujingyingkuaidai" />
-      <option name="METHOD_NAME" value="lookProduct" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.course.h5.kejitongbao" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -309,7 +298,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kuaijiediyadai.lookProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="kuaiyidai" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
@@ -318,9 +307,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.kuaijiediyadai" />
-      <option name="METHOD_NAME" value="lookProduct" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.course.h5.kuaiyidai" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -330,10 +318,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.diyakuaidai" />
+        <item itemvalue="TestNG.kejitongbao" />
+        <item itemvalue="TestNG.kuaiyidai" />
         <item itemvalue="TestNG.kuaijiediyadai" />
-        <item itemvalue="TestNG.kuaijiediyadai.lookProduct" />
-        <item itemvalue="TestNG.getigongshanghujingyingkuaidai.lookProduct" />
-        <item itemvalue="TestNG.getigongshanghujingyingkuaidai" />
       </list>
     </recent_temporary>
   </component>

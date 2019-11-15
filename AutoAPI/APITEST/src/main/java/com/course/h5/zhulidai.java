@@ -21,7 +21,6 @@ public class zhulidai {
             description = "获取到查看产品的支行"
     )
     public void beforeTest() {
-
         TestConfig.h5Loign = ConfigFileH5.getUrl(InterfaceName.H5LOGIN);
     }
     @AfterTest
@@ -31,11 +30,8 @@ public class zhulidai {
     @Test(description = "查看产品详情测试")
     public void lookProduct() throws Exception {
         List<String> list = getList();
-
-
         for (String temp : list){
             URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            String dataId = DataIdFile.readFile();
             builder.addParameter("bankId","9928");
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());

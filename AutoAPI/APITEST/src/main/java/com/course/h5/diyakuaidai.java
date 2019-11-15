@@ -3,7 +3,6 @@ package com.course.h5;
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFileH5;
-import com.course.utils.DataIdFile;
 import com.course.utils.H5TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -16,12 +15,11 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class rongedai {
+public class diyakuaidai {
     @BeforeTest(
             description = "获取到查看产品的支行"
     )
     public void beforeTest() {
-
         TestConfig.h5Loign = ConfigFileH5.getUrl(InterfaceName.H5LOGIN);
     }
     @AfterTest
@@ -31,11 +29,9 @@ public class rongedai {
     @Test(description = "查看产品详情测试")
     public void lookProduct() throws Exception {
         List<String> list = getList();
-
-
         for (String temp : list){
             URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            builder.addParameter("bankId","8943");
+            builder.addParameter("bankId","9899");
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());
             String name="gxdjkey";
@@ -44,7 +40,7 @@ public class rongedai {
             HttpResponse response =  TestConfig.client.execute (httpGet);
             String result;
             result = EntityUtils.toString (response.getEntity(),"utf-8");
-            System.out.println("银行名称:泰隆银行"+" | "+"产品名称:融e贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
+            System.out.println("银行名称:建设银行"+" | "+"产品名称:抵押快贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
         }
     }
 
@@ -67,25 +63,6 @@ public class rongedai {
         list.add("330155");
         list.add("330182");
         list.add("330199");
-        list.add("330203");
-        list.add("330205");
-        list.add("330206");
-        list.add("330211");
-        list.add("330212");
-        list.add("330213");
-        list.add("330225");
-        list.add("330226");
-        list.add("330251");
-        list.add("330252");
-        list.add("330253");
-        list.add("330254");
-        list.add("330255");
-        list.add("330256");
-        list.add("330257");
-        list.add("330258");
-        list.add("330281");
-        list.add("330282");
-        list.add("330299");
         list.add("330302");
         list.add("330303");
         list.add("330304");
