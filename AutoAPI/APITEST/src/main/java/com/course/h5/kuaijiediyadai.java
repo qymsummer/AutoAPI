@@ -4,10 +4,12 @@ import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFileH5;
 import com.course.utils.DataIdFile;
+import com.course.utils.H5TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONObject;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -39,11 +41,13 @@ public class kuaijiediyadai {
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());
             String name="gxdjkey";
-            String value = "z8D78sNowYZHMg2WKoR2jADR%2Fx%2F6E3De5wXoVjjN39EgVzNIPevJ%2FrrsdZ6tyOn9";
+            String value = H5TokenFile.readFile();
             httpGet.setHeader(name,value);
             HttpResponse response =  TestConfig.client.execute (httpGet);
-            String result;
-            result = EntityUtils.toString (response.getEntity(),"utf-8");
+            String result = EntityUtils.toString (response.getEntity(),"utf-8");
+            //JSONObject JSON = new JSONObject(result);
+            //JSON.get("data");
+            //System.out.println(JSON);
             System.out.println("银行名称:交通银行"+" | "+"产品名称:快捷抵押贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
         }
     }

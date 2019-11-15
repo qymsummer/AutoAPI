@@ -1,53 +1,12 @@
-package com.course.model;
-
-import com.course.config.TestConfig;
-import com.course.utils.ConfigFileH5;
-import com.course.utils.DataIdFile;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.utils.URIBuilder;
-import org.apache.http.util.EntityUtils;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+package com.course.test;
+import com.course.utils.TokenFile;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class jielidai {
-    @BeforeTest(
-            description = "获取到查看产品的支行"
-    )
-    public void beforeTest() {
-
-        TestConfig.h5Loign = ConfigFileH5.getUrl(InterfaceName.H5LOGIN);
-    }
-    @AfterTest
-    public void afterTest(){
-
-    }
-    @Test(description = "查看产品详情测试")
-    public void lookProduct() throws Exception {
-        List<String> list = getList();
-
-
-        for (String temp : list){
-            URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            String dataId = DataIdFile.readFile();
-            builder.addParameter("bankId","8943");
-            builder.addParameter("districtId",temp);
-            HttpGet httpGet = new HttpGet(builder.build());
-            String name="gxdjkey";
-            String value = "z8D78sNowYZHMg2WKoR2jADR%2Fx%2F6E3De5wXoVjjN39EgVzNIPevJ%2FrrsdZ6tyOn9";
-            httpGet.setHeader(name,value);
-            HttpResponse response =  TestConfig.client.execute (httpGet);
-            String result;
-            result = EntityUtils.toString (response.getEntity(),"utf-8");
-            System.out.println("银行名称:泰隆银行"+" | "+"产品名称:接力贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
-        }
-    }
-
-    private List getList() {
+public class List11 {
+    public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
         list.add("1");
         list.add("330102");
@@ -66,25 +25,6 @@ public class jielidai {
         list.add("330155");
         list.add("330182");
         list.add("330199");
-        list.add("330203");
-        list.add("330205");
-        list.add("330206");
-        list.add("330211");
-        list.add("330212");
-        list.add("330213");
-        list.add("330225");
-        list.add("330226");
-        list.add("330251");
-        list.add("330252");
-        list.add("330253");
-        list.add("330254");
-        list.add("330255");
-        list.add("330256");
-        list.add("330257");
-        list.add("330258");
-        list.add("330281");
-        list.add("330282");
-        list.add("330299");
         list.add("330302");
         list.add("330303");
         list.add("330304");
@@ -181,6 +121,15 @@ public class jielidai {
         list.add("331151");
         list.add("331181");
         list.add("331199");
-        return list;
+        Iterator it = list.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
     }
 }
+
+
+
+
+

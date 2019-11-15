@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
+<suite name="供需平台测试套件" parallel="tests" thread-count="3" preserve-order="true">
     <test name="供需平台测试用例">
         <classes>
             <class name="com.course.h5.bianlidai">
