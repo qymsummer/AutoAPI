@@ -7,20 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/diyakuaidai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kejitongbao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/LookProductBankdiyakuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/LookProductBankdiyakuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/bianlidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/bianlidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changdaitong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changdaitong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changyedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changyedai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/chengzhangdai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/chengzhangdai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/chuangyedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/chuangyedai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/diyaedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/diyaedai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/diyakuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/diyakuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/edikuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/edikuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/fangdidianyidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/fangdidianyidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/fangshandai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/fangshandai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/gaoqidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/gaoqidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/getigongshanghujingyingkuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/getigongshanghujingyingkuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/gongyechangfanganjiedaikuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/gongyechangfanganjiedaikuan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jielidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jielidai.java" afterDir="false" />
@@ -28,60 +23,37 @@
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jiesuanyundai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jiesuanyundai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jingyingkuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jingyingkuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kechuangdai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kechuangdai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kechuangdaishangye.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kechuangdaishangye.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kejidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kejidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/keyidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/keyidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaijiedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaijiedai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kejitongbao.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kejitongbao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaijiediyadai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaijiediyadai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaiyidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaiyidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaiyidaixingyeyinhang.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/kuaiyidaixingyeyinhang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/leyingfangdidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/leyingfangdidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/lianliandai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/lianliandai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/minsudai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/minsudai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/mintaiyinhang.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/mintaiyinhang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/miqixunhuandai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/miqixunhuandai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/nashuiedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/nashuiedai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/paimaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/paimaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/qihuitong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/qihuitong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/rongedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/rongedai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/ruyuanqiyeqianqidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/ruyuanqiyeqianqidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/sanniandai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/sanniandai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shanghuitong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shanghuitong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shuijindai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shuijindai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shuiyindai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shuiyindai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/wangdaitong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/wangdaitong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/wuyedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/wuyedai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xianshangdiyadai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xianshangdiyadai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xianshangshuirongtong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xianshangshuirongtong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaobenkuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaobenkuaidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoqiyeruyuananjiedaikuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoqiyeruyuananjiedaikuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoshuidianxiangmdaikuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoshuidianxiangmdaikuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoweikuaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoweikuaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoweiwangdai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xiaoweiwangdai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xinrongtong.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xinrongtong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xinyongyidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/xinyongyidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yinliantoudai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yinliantoudai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yinyongyidaiyouchu.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yinyongyidaiyouchu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yisudai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yisudai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yundidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yundidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yunshuidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yunshuidai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yunxiaodai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yunxiaodai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhengcaidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhengcaidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhongyinwangrongyi.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhongyinwangrongyi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhujindai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhujindai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhulidai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/zhulidai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/LookProductBankdiyakuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/LookProductBankdiyakuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/bianlidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/bianlidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changdaitong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changdaitong.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changyedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changyedai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/chengzhangdai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/chengzhangdai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/chuangyedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/chuangyedai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/diyaedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/diyaedai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/diyakuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/diyakuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/edikuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/edikuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/fangdidianyidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/fangdidianyidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/fangshandai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/fangshandai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/gaoqidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/gaoqidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/getigongshanghujingyingkuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/getigongshanghujingyingkuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/gongyechangfanganjiedaikuan.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/gongyechangfanganjiedaikuan.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jielidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jielidai.class" afterDir="false" />
@@ -89,48 +61,28 @@
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jiesuanyundai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jiesuanyundai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jingyingkuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jingyingkuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kechuangdai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kechuangdai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kechuangdaishangye.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kechuangdaishangye.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kejidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kejidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/keyidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/keyidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaijiedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaijiedai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kejitongbao.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kejitongbao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaijiediyadai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaijiediyadai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaiyidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaiyidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaiyidaixingyeyinhang.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/kuaiyidaixingyeyinhang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/leyingfangdidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/leyingfangdidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/lianliandai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/lianliandai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/minsudai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/minsudai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/mintaiyinhang.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/mintaiyinhang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/miqixunhuandai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/miqixunhuandai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/nashuiedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/nashuiedai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/paimaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/paimaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/qihuitong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/qihuitong.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/rongedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/rongedai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/ruyuanqiyeqianqidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/ruyuanqiyeqianqidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/sanniandai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/sanniandai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/shanghuitong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/shanghuitong.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/shuijindai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/shuijindai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/shuiyindai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/shuiyindai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/wangdaitong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/wangdaitong.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/wuyedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/wuyedai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xianshangdiyadai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xianshangdiyadai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xianshangshuirongtong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xianshangshuirongtong.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaobenkuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaobenkuaidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoqiyeruyuananjiedaikuan.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoqiyeruyuananjiedaikuan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoshuidianxiangmdaikuan.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoshuidianxiangmdaikuan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoweikuaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoweikuaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoweiwangdai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xiaoweiwangdai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xinrongtong.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xinrongtong.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xinyongyidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/xinyongyidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yinliantoudai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yinliantoudai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yinyongyidaiyouchu.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yinyongyidaiyouchu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yisudai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yisudai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yundidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yundidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yunshuidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yunshuidai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yunxiaodai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yunxiaodai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhengcaidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhengcaidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhongyinwangrongyi.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhongyinwangrongyi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhujindai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhujindai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhulidai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/zhulidai.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
@@ -219,28 +171,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.xianshangshuirongtong">
     <configuration name="C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LookProductBankdiyakuaidai" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.h5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.LookProductBankdiyakuaidai" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -281,23 +216,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kuaijiediyadai" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.h5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.kuaijiediyadai" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="kuaiyidai" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
@@ -315,13 +233,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xianshangshuirongtong" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.h5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.h5" />
+      <option name="MAIN_CLASS_NAME" value="com.course.h5.xianshangshuirongtong" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.xianshangshuirongtong" />
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.diyakuaidai" />
         <item itemvalue="TestNG.kejitongbao" />
         <item itemvalue="TestNG.kuaiyidai" />
-        <item itemvalue="TestNG.kuaijiediyadai" />
       </list>
     </recent_temporary>
   </component>

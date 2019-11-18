@@ -320,6 +320,14 @@
         </classes>
     </test>
 
+
+
+
+
+
+
+
+
     <!--添加测试报告监听器-->
     <listeners>
         <listener class-name="com.course.config.ExtentTestNGIReporterListener"></listener>

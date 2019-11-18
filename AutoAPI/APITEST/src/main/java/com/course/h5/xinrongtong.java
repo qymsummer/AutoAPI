@@ -50,7 +50,6 @@ public class xinrongtong {
 
     private List getList() {
         List<String> list = new ArrayList<String>();
-        list.add("1");
         list.add("330102");
         list.add("330103");
         list.add("330104");

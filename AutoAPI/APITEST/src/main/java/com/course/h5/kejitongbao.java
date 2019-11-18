@@ -40,13 +40,12 @@ public class kejitongbao {
             HttpResponse response =  TestConfig.client.execute (httpGet);
             String result;
             result = EntityUtils.toString (response.getEntity(),"utf-8");
-            System.out.println("银行名称:中国银行"+"|"+"产品名称:科技通宝"+"|"+"城市ID:"+temp+"\n"+"返回结果:"+result);
+            System.out.println("银行名称:中国银行"+"|"+"产品名称:科技通宝"+"|"+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
         }
     }
 
     private List getList() {
         List<String> list = new ArrayList<String>();
-        list.add("1");
         list.add("330103");
         list.add("330104");
         list.add("330105");
