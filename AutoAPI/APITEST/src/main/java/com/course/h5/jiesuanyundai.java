@@ -26,7 +26,6 @@ public class jiesuanyundai {
     }
     @AfterTest
     public void afterTest(){
-
     }
     @Test(description = "查看产品详情测试")
     public void lookProduct() throws Exception {

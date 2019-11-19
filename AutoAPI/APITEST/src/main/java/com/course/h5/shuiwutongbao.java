@@ -2,13 +2,12 @@ package com.course.h5;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
-import com.course.utils.*;
+import com.course.utils.ConfigFileH5;
+import com.course.utils.H5TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.util.EntityUtils;
-import org.json.JSONObject;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,7 +15,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LookProductBankdiyakuaidai {
+public class shuiwutongbao {
     @BeforeTest(
             description = "获取到查看产品的支行"
     )
@@ -35,7 +34,7 @@ public class LookProductBankdiyakuaidai {
 
         for (String temp : list){
             URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            builder.addParameter("bankId","9899");
+            builder.addParameter("bankId","20768");
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());
             String name="gxdjkey";
@@ -44,7 +43,7 @@ public class LookProductBankdiyakuaidai {
             HttpResponse response =  TestConfig.client.execute (httpGet);
             String result;
             result = EntityUtils.toString (response.getEntity(),"utf-8");
-            System.out.println("银行名称:建设银行"+" | "+"产品名称:抵押快贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
+            System.out.println("银行名称:税务通宝"+" | "+"产品名称:税务通宝"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
         }
     }
 

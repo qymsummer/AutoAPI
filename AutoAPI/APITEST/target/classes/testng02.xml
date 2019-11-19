@@ -135,11 +135,6 @@
                     <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.h5.LookProductBankdiyakuaidai">
-                <methods>
-                    <include name="lookProduct"/>
-                </methods>
-            </class>
             <class name="com.course.h5.minsudai">
                 <methods>
                     <include name="lookProduct"/>
@@ -256,7 +251,11 @@
                     <include name="lookProduct"/>
                 </methods>
             </class>
-
+            <class name="com.course.h5.shuiwutongbao">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
             <class name="com.course.h5.yinliantoudai">
                 <methods>
                     <include name="lookProduct"/>
