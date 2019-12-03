@@ -7,18 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36364d9c-2215-439d-bd1a-2b4e61127917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/shuiwutongbao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/bvtcase/login/DistriButorLoginXXGX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/config/TestConfigXXGX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/baoguantongbao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/utils/ConfigFileXXGX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/xxgx/GetXxgxData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application03.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng03.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/LookProductBankdiyakuaidai.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jiesuanyundai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/jiesuanyundai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changyedai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/changyedai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/mintaiyinhang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yinliantoudai.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/h5/yintouliandai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/java/com/course/model/InterfaceName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/application01.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/application01.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/src/main/resources/testng02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/src/main/resources/testng02.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/target/classes/application01.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/application01.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/LookProductBankdiyakuaidai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jiesuanyundai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/jiesuanyundai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changyedai.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/changyedai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/mintaiyinhang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/h5/yinliantoudai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/com/course/model/InterfaceName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APITEST/target/classes/testng02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/target/classes/testng02.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APITEST/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/APITEST/test-output/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +44,7 @@
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -69,12 +78,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\productmanagement" />
-      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\whitelistmanagement" />
-      <recent name="C:\GITMASTER\AutoAPI" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
+      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
+      <recent name="C:\软件\AutoAPI\Chapter9" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -83,10 +90,12 @@
       <recent name="com.course.utils" />
       <recent name="com.course.bvtcase.loginLA" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\软件\AutoAPI\Chapter11\src\main\resources\mapper" />
-      <recent name="C:\软件\AutoAPI\Chapter10\src\main\java\com\course\server" />
-      <recent name="C:\软件\AutoAPI\Chapter9" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\utils" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\resources" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\productmanagement" />
+      <recent name="C:\GITMASTER\AutoAPI\APITEST\src\main\java\com\course\bvtcase\whitelistmanagement" />
+      <recent name="C:\GITMASTER\AutoAPI" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -106,17 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng02.xml">
-    <configuration name="C:/GITMASTER/AutoAPI/APITEST/src/main/resources/1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/1.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng03.xml">
     <configuration name="C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng02.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/testng02.xml" />
@@ -127,9 +126,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng03.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/APITEST/src/main/resources/testng03.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -137,16 +136,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bianlidai" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetXxgxData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.h5.*" />
+          <option name="PATTERN" value="com.course.xxgx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.bianlidai" />
+      <option name="PACKAGE_NAME" value="com.course.xxgx" />
+      <option name="MAIN_CLASS_NAME" value="com.course.xxgx.GetXxgxData" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -154,16 +153,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shuiwutongbao" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetXxgxData.lookProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.h5.*" />
+          <option name="PATTERN" value="com.course.xxgx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.h5" />
-      <option name="MAIN_CLASS_NAME" value="com.course.h5.shuiwutongbao" />
+      <option name="PACKAGE_NAME" value="com.course.xxgx" />
+      <option name="MAIN_CLASS_NAME" value="com.course.xxgx.GetXxgxData" />
+      <option name="METHOD_NAME" value="lookProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ticket" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.course.utils.Ticket" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -173,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng03.xml" />
+        <item itemvalue="TestNG.GetXxgxData" />
         <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng02.xml" />
-        <item itemvalue="TestNG.shuiwutongbao" />
-        <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/1.xml" />
-        <item itemvalue="TestNG.bianlidai" />
-        <item itemvalue="TestNG.C:/GITMASTER/AutoAPI/APITEST/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.Ticket" />
+        <item itemvalue="TestNG.GetXxgxData.lookProduct" />
       </list>
     </recent_temporary>
   </component>

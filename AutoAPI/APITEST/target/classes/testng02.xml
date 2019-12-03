@@ -140,11 +140,6 @@
                     <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.h5.mintaiyinhang">
-                <methods>
-                    <include name="lookProduct"/>
-                </methods>
-            </class>
             <class name="com.course.h5.miqixunhuandai">
                 <methods>
                     <include name="lookProduct"/>
@@ -256,7 +251,7 @@
                     <include name="lookProduct"/>
                 </methods>
             </class>
-            <class name="com.course.h5.yinliantoudai">
+            <class name="com.course.h5.yintouliandai">
                 <methods>
                     <include name="lookProduct"/>
                 </methods>
@@ -316,17 +311,13 @@
                     <include name="lookProduct"/>
                 </methods>
             </class>
+            <class name="com.course.h5.baoguantongbao">
+                <methods>
+                    <include name="lookProduct"/>
+                </methods>
+            </class>
         </classes>
     </test>
-
-
-
-
-
-
-
-
-
     <!--添加测试报告监听器-->
     <listeners>
         <listener class-name="com.course.config.ExtentTestNGIReporterListener"></listener>

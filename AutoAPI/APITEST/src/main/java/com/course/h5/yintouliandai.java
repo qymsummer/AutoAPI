@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class mintaiyinhang {
+public class yintouliandai {
     @BeforeTest(
             description = "获取到查看产品的支行"
     )
@@ -35,7 +35,7 @@ public class mintaiyinhang {
 
         for (String temp : list){
             URIBuilder builder = new URIBuilder(TestConfig.h5Loign);
-            builder.addParameter("bankId","9928");
+            builder.addParameter("bankId","9458");
             builder.addParameter("districtId",temp);
             HttpGet httpGet = new HttpGet(builder.build());
             String name="gxdjkey";
@@ -44,7 +44,7 @@ public class mintaiyinhang {
             HttpResponse response =  TestConfig.client.execute (httpGet);
             String result;
             result = EntityUtils.toString (response.getEntity(),"utf-8");
-            System.out.println("银行名称:农村商业银行"+" | "+"产品名称:助力贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
+            System.out.println("银行名称:杭州银行"+" | "+"产品名称:银投联贷"+" | "+"城市ID:"+temp+"\n"+"返回结果:"+result+"\n");
         }
     }
 
