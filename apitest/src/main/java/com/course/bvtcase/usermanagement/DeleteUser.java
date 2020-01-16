@@ -17,5 +17,6 @@ public class DeleteUser {
         String userid =  TokenFile.readFile("E:\\Data\\userId.txt");
         System.out.println(userid);
         RunSqlT1.deleteUser(userid);
+        System.out.println("---");
     }
 }
