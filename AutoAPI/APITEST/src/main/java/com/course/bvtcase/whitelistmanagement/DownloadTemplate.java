@@ -4,7 +4,6 @@ import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
 import com.course.utils.TokenFile;
-import com.mongodb.operation.FsyncUnlockOperation;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;

@@ -34,6 +34,8 @@ public class TestConfig {
     public static String paramUrl;
     //退出登录
     public static String loginOut;
+    //添加机构分类URL
+    public static String addOrUpdate;
     /*
     H5URL
      */

@@ -1,5 +1,4 @@
 package com.course.bvtcase.loginLA;
-
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
@@ -16,7 +15,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +31,6 @@ public class LoanApproverLogin {
     }
     @AfterTest
     public void afterTest(){
-
     }
     //获取到ticket
     public static String getTicket() throws IOException {

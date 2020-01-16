@@ -55,6 +55,9 @@ public class ConfigFile {
         if (name == InterfaceName.LOGINOUT) {
             uri = bundle.getString("logout.uri");
         }
+        if (name == InterfaceName.ADDORUPDATE) {
+            uri = bundle.getString("addOrUpdate.uri");
+        }
 
         testUrl = address + uri;
         return testUrl;

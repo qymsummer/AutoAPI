@@ -24,8 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DistriButorLoginXXGX {
-    private static String account = "ybjxxgx001";
-    private static String password = "ybjxxgx001";
+    private static String account = "ybjxxgx002";
+    private static String password = "ybjxxgx002";
     private static String userType = "1";
 
     @BeforeTest
@@ -35,6 +35,7 @@ public class DistriButorLoginXXGX {
     }
     @AfterTest
     public void afterTest(){
+
     }
     //获取到ticket
     public static String getTicket() throws IOException {

@@ -85,7 +85,7 @@ public class UpdateProduct {
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println("测试结果:"+"\t"+result);
         JSONObject resultJson = new JSONObject(result);
-        int  success = (int) resultJson.get("code");//判断
+        String  success = (String) resultJson.get("code");
         Assert.assertEquals(0,success);
         return productName;
     }

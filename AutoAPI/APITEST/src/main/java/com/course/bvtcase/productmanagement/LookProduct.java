@@ -36,7 +36,7 @@ public class LookProduct {
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println("测试结果"+result);
         JSONObject JSON = new JSONObject(result);
-        int success = (int) JSON.get("code");
+        String success = (String) JSON.get("code");
         //判断
         Assert.assertEquals(0,success);
 

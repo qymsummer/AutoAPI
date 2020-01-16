@@ -57,7 +57,7 @@ public class ProductShelvesUrl {
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println(result);
         JSONObject resultJson = new JSONObject (result);
-        int success = (int) resultJson.get("code");
+        String success = (String) resultJson.get("code");
         //判断
         Assert.assertEquals(0,success);
         System.out.println(result);

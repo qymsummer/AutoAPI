@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
+    <test name="供需平台测试用例">
+        <classes>
+            <class name="com.course.bvtcase.login.DistriButorLoginaAPI">
+                <methods>
+                    <include name="loginCaseDb"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.sort.AddOrUpdate">
+                <methods>
+                    <include name="runAddUpdate"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <!--添加测试报告监听器-->
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

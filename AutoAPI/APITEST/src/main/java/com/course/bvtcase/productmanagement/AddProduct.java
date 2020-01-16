@@ -71,14 +71,7 @@ public class AddProduct {
         String result;
         TestConfig.store = TestConfig.client.getCookieStore();
         List<Cookie> cookieList = TestConfig.store.getCookies();
-        /*
-        for(Cookie cookie : cookieList){
-            String name = cookie.getName();
-            String value = cookie.getValue();
-            System.out.println("name = "+name+",value = "+value);
-        }
-         */
-        //设置Cookies信息
+
         TestConfig.client.setCookieStore(TestConfig.store);
         //执行post方法
         HttpResponse response =  TestConfig.client.execute (httpPost);
@@ -86,7 +79,7 @@ public class AddProduct {
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println("测试结果"+result);
         JSONObject JSON = new JSONObject(result);
-        int success = (int) JSON.get("code");
+        String success = (String) JSON.get("code");
         //判断
         Assert.assertEquals(0,success);
         String dataId = (String) JSON.get("data");

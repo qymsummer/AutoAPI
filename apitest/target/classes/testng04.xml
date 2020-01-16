@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="供需平台测试套件" parallel="tests" thread-count="1" preserve-order="true">
+    <test name="供需平台测试用例">
+        <classes>
+            <class name="com.course.bvtcase.login.DistriButorLogin">
+                <methods>
+                    <include name="loginCaseDb"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgsort.AddOrUpdate">
+                <methods>
+                    <include name="runAddUpate"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgsort.FindOrgList">
+                <methods>
+                    <include name="findOrgList"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgsort.UpdataOr">
+                <methods>
+                    <include name="UpdateOr"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.AddOrgName">
+                <methods>
+                    <include name="addOrgName"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.FindOrgName">
+                <methods>
+                    <include name="findOrgName"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.UpdateOrgName">
+                <methods>
+                    <include name="updateOrgName"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.AddFictitiousOrgName">
+                <methods>
+                    <include name="addFictitiousOrgName"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.FindFictitiousOrgName">
+                <methods>
+                    <include name="findFictitiousOrgName"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.UpdateFictitiousOrgName">
+                <methods>
+                    <include name="updateFictitiousOrgName"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.AddOrgProductAuth">
+                <methods>
+                    <include name="addOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.FindOrgProductAuth">
+                <methods>
+                    <include name="findOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.UpdateAddOrgPrdouctAuth">
+                <methods>
+                    <include name="updateAddOrgPrdouctAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.AddFictitiousOrgProductAuth">
+                <methods>
+                    <include name="addFictitiousOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.FindFictitiousOrgProductAuth">
+                <methods>
+                    <include name="findFictitiusOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.UpdateAddFictitiousOrgProductAuth">
+                <methods>
+                    <include name="updateAddFictitiousOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.grayscaleorg.AddGrayScaleOrg">
+                <methods>
+                    <include name="addGrayScaleOrg"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.grayscaleorg.FindGrayScaleOrg">
+                <methods>
+                    <include name="findGrayScaleOrg"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.rolemanager.AddRole">
+                <methods>
+                    <include name="addRole"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.rolemanager.FindRole">
+                <methods>
+                    <include name="findRole"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.rolemanager.UpdataRole">
+                <methods>
+                    <include name="updataRole"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.rolemanager.AddMenu">
+                <methods>
+                    <include name="addMenu"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.usermanagement.AddUser">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.usermanagement.FindUser">
+                <methods>
+                    <include name="findUser"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.usermanagement.UpdateUser">
+                <methods>
+                    <include name="updateUser"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.usermanagement.InitPassWord">
+                <methods>
+                    <include name="initPassWord"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.menumanager.AddMenu">
+                <methods>
+                    <include name="addMenu"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.menumanager.FindMenu">
+                <methods>
+                    <include name="findMenu"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.menumanager.UpdateMenu">
+                <methods>
+                    <include name="updateMenu"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.menumanager.DeleteMenu">
+                <methods>
+                    <include name="deleteMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--添加测试报告监听器-->
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
