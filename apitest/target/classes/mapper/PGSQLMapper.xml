@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.model">
+    <!--删除用户-->
+    <update id="sys_user" parameterType="String">
+        delete from sys_user
+        where user_id =#{user_id}
+    </update>
+    <!--删除机构-->
+    <update id="sys_organization" parameterType="String">
+        delete from sys_organization
+        where org_id =#{org_id}
+    </update>
+
+</mapper>

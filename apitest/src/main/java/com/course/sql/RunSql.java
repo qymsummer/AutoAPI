@@ -1,11 +1,8 @@
 package com.course.sql;
 
 import com.course.utils.DatabaseUtil;
-import com.course.utils.TokenFile;
 import org.apache.ibatis.session.SqlSession;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 /**

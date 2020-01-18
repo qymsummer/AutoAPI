@@ -14,17 +14,12 @@ import java.io.IOException;
 public class DeleteUser {
 
     @Test(groups = "DeleteUser",description = "删除用户")
-    public void deleteUser() throws IOException {
+    public void deleteUser() throws IOException, InterruptedException {
+        Thread.sleep(100);
         String userId =  TokenFile.readFile("E:\\Data\\userId.txt");
         System.out.println(userId);
         RunSql.deleteUser(userId);
         System.out.println("---");
     }
-    @Test(groups = "DeleteUser",description = "删除用户")
-    public void deleteOrg() throws IOException {
-        String str =  TokenFile.readFile("E:\\Data\\OrgID.txt");
-        System.out.println(str);
-        RunSql.deleteSysOrg(str);
-        System.out.println("----");
-    }
+
 }

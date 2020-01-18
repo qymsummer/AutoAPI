@@ -204,7 +204,16 @@
                     <include name="deleteOrgSort"/>
                 </methods>
             </class>
-
+            <class name="com.course.bvtcase.orgmanager.DeleteFictitiousPgSqlOrg">
+                <methods>
+                    <include name="deleteFictitiousPgSqOrg"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.DeletePgSqlOrg">
+                <methods>
+                    <include name="deletePgSqOrg"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
