@@ -174,7 +174,36 @@
                     <include name="deleteRole"/>
                 </methods>
             </class>
-
+            <class name="com.course.bvtcase.grayscaleorg.DeleteGrayScaleOrg">
+                <methods>
+                    <include name="deleteGrayScaleOrg"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.DeleteFictitiousOrgProductAuth">
+                <methods>
+                    <include name="deleteFictitiousOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgproductauthority.DeleteOrgProductAuth">
+                <methods>
+                    <include name="deleteOrgProductAuth"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.DeleteFictitiousOrg">
+                <methods>
+                    <include name="deleteFictitiousOrg"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgmanager.DeleteOrg">
+                <methods>
+                    <include name="deleteOrg"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.orgsort.DeleteOrgSort">
+                <methods>
+                    <include name="deleteOrgSort"/>
+                </methods>
+            </class>
 
         </classes>
     </test>

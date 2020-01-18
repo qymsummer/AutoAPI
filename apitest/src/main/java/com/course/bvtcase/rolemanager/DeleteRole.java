@@ -42,8 +42,10 @@ public class DeleteRole {
         Thread.sleep(100);
         URIBuilder builder = new URIBuilder(TestConfig.deleteRole);
         System.out.println(builder);
-        String roleId = TokenFile.readFile("E:\\Data\\roleId.txt");
-        builder.addParameter("roleId",roleId);
+        String roleId = TokenFile.readFile("E:\\Data\\RoleId.txt");
+        String newRoleId = roleId.replaceAll("[\\t\\n\\r\\s]","");
+        System.out.println(roleId);
+        builder.addParameter("roleId",newRoleId);
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
@@ -53,6 +55,7 @@ public class DeleteRole {
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         JSONObject jsonObject = new JSONObject(result);
+        System.out.println(result);
         String  success = (String) jsonObject.get("msg");
         Assert.assertEquals("成功",success);
     }

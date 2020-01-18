@@ -1,4 +1,4 @@
-package com.course.bvtcase.orgproductauthority;
+package com.course.bvtcase.orgsort;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
@@ -19,29 +19,29 @@ import java.net.URISyntaxException;
 
 /**
  * @Description ApiAutoTest
- * @Date 2020/1/17 17:33
+ * @Date 2020/1/18 10:25
  * @Author qym
  */
-public class DeleteFictitiousOrgProductAuth {
+public class DeleteOrgSort {
     @BeforeMethod(
-            description = "虚拟机构产品权限删除"
+            description = "机构分类删除"
     )
 
     public void beforeMethod() {
-        TestConfig.deleteOrgProductAuth = ConfigFile.getUrl(InterfaceName.DELETEORGPRODUCTAUTH);
+
+        TestConfig.deleteById = ConfigFile.getUrl(InterfaceName.DELETEBYID);
     }
     @AfterMethod
     public void afterMethod(){
-
     }
-    @Test(groups = "DeleteFictitiousOrgProductAuth",description = "虚拟机构产品权限删除")
-    public void deleteFictitiousOrgProductAuth() throws URISyntaxException, IOException, InterruptedException {
+    @Test(groups = "DeleteOrgSort",description = "机构分类删除")
+    public void deleteOrgSort() throws URISyntaxException, IOException, InterruptedException {
         Thread.sleep(100);
-        URIBuilder builder = new URIBuilder(TestConfig.deleteOrgProductAuth);
+        URIBuilder builder = new URIBuilder(TestConfig.deleteById);
         System.out.println(builder);
-        String orgId = TokenFile.readFile("E:\\Data\\FictitiousorgId.txt");
-        String newOrgId = orgId.replaceAll("[\\t\\n\\r\\s]","");
-        builder.addParameter("orgId",newOrgId);
+        String id = TokenFile.readFile("E:\\Data\\ID.txt");
+        String newId = id.replaceAll("[\\t\\n\\r\\s]","");
+        builder.addParameter("id",newId);
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");

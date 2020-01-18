@@ -20,4 +20,11 @@ public class DeleteUser {
         RunSql.deleteUser(userId);
         System.out.println("---");
     }
+    @Test(groups = "DeleteUser",description = "删除用户")
+    public void deleteOrg() throws IOException {
+        String str =  TokenFile.readFile("E:\\Data\\OrgID.txt");
+        System.out.println(str);
+        RunSql.deleteSysOrg(str);
+        System.out.println("----");
+    }
 }

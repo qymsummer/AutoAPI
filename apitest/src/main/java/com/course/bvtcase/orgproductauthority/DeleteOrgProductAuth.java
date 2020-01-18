@@ -19,12 +19,12 @@ import java.net.URISyntaxException;
 
 /**
  * @Description ApiAutoTest
- * @Date 2020/1/17 17:33
+ * @Date 2020/1/18 9:49
  * @Author qym
  */
-public class DeleteFictitiousOrgProductAuth {
+public class DeleteOrgProductAuth {
     @BeforeMethod(
-            description = "虚拟机构产品权限删除"
+            description = "机构产品权限删除"
     )
 
     public void beforeMethod() {
@@ -34,12 +34,12 @@ public class DeleteFictitiousOrgProductAuth {
     public void afterMethod(){
 
     }
-    @Test(groups = "DeleteFictitiousOrgProductAuth",description = "虚拟机构产品权限删除")
-    public void deleteFictitiousOrgProductAuth() throws URISyntaxException, IOException, InterruptedException {
+    @Test(groups = "DeleteOrgProductAuth",description = "机构产品权限删除")
+    public void deleteOrgProductAuth() throws URISyntaxException, IOException, InterruptedException {
         Thread.sleep(100);
         URIBuilder builder = new URIBuilder(TestConfig.deleteOrgProductAuth);
         System.out.println(builder);
-        String orgId = TokenFile.readFile("E:\\Data\\FictitiousorgId.txt");
+        String orgId = TokenFile.readFile("E:\\Data\\OrgID.txt");
         String newOrgId = orgId.replaceAll("[\\t\\n\\r\\s]","");
         builder.addParameter("orgId",newOrgId);
         HttpPost httpPost = new HttpPost(builder.build());

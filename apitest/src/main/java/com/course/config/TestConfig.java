@@ -119,6 +119,10 @@ public class TestConfig {
      * 产品权限删除
      */
     public static String deleteOrgProductAuth;
+    /**
+     * 机构分类删除
+     */
+    public static String deleteById;
     public static CookieStore store;
     public static DefaultHttpClient client = new DefaultHttpClient();
 }

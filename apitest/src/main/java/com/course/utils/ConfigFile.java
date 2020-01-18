@@ -99,6 +99,9 @@ public class ConfigFile {
         if (name == InterfaceName.DELETEORGPRODUCTAUTH) {
             uri = bundle.getString("deletePlatform.uri");
         }
+        if (name == InterfaceName.DELETEBYID) {
+            uri = bundle.getString("deleteById.uri");
+        }
         testUrl = address + uri;
         return testUrl;
     }

@@ -22,11 +22,11 @@ public class RunSql {
     }
     public static void deleteSysOrg(String str) throws IOException {
         SqlSession session = DatabaseUtil.getSqlSession();
-        int getSysUser = session.delete("sys_organization",str);
+        int getSysOrganization = session.delete("sys_organization",str);
         session.commit();
         System.out.println("-------------");
         int num = 1;
-        Assert.assertEquals(num,getSysUser);
+        Assert.assertEquals(num,getSysOrganization);
     }
 
 }
