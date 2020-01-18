@@ -5,6 +5,7 @@ import java.util.Random;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 
 public class GetRandom {

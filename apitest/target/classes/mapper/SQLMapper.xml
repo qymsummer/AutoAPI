@@ -3,20 +3,15 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.course.model">
-    <!--更新删除用户Case-->
-    <select id="getUserInfoCase" parameterType="String" resultType="com.course.model.GetUserInfoCase">
-        delete from getUserInfoCase
-        where id =#{id}
-    </select>
     <!--删除用户-->
-    <select id="getSysUser" parameterType="String" resultType="com.course.model.GetSysUser">
+    <delete id="sys_user" parameterType="String">
         delete from sys_user
         where user_id =#{user_id}
-    </select>
+    </delete>
     <!--删除机构-->
-    <select id="GetSysOrganization" parameterType="Integer" resultType="com.course.model.GetSysOrganization">
+    <delete id="sys_organization" parameterType="String">
         delete from sys_organization
         where org_id =#{org_id}
-    </select>
+    </delete>
 
 </mapper>

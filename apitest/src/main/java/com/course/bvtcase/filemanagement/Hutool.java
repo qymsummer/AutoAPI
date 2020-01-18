@@ -10,6 +10,7 @@ import java.io.File;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/14 10:33
+ * @author qym
  */
 public class Hutool {
     public static void main(String[] args) {

@@ -3,39 +3,40 @@ package com.course.model;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/16 15:30
+ * @author qym
  */
 public class GetSysOrganization {
-    private String org_id;
+    private String orgId;
     private String logo;
-    private String org_address;
-    private String usc_id;
-    private String parent_id;
+    private String orgAddress;
+    private String uscId;
+    private String parentId;
     private String ancestors;
-    private String ancestors_search;
-    private String org_simple_name;
-    private String organization_name;
-    private String order_num;
+    private String ancestorsSearch;
+    private String orgSimpleName;
+    private String organizationName;
+    private String orderNum;
     private String status;
-    private String del_flag;
-    private String create_by;
-    private String create_time;
-    private String update_by;
-    private String update_time;
-    private String business_license;
+    private String delFlag;
+    private String createBy;
+    private String createTime;
+    private String updateBy;
+    private String updateTime;
+    private String businessLicense;
     private String nature;
-    private String platform_ids;
-    private String platform_setting_flag;
-    private String platform_setting_time;
-    private String org_longitude;
-    private String org_province_id;
-    private String org_province;
-    private String org_city_id;
-    private String org_city;
-    private String org_area_id;
-    private String org_area;
-    private String org_detail;
-    private String org_type_id;
-    private String org_virtual_flag;
-    private String org_virtual_id;
+    private String platformIds;
+    private String platformSettingFlag;
+    private String platformSettingTime;
+    private String orgLongitude;
+    private String orgProvinceId;
+    private String orgProvince;
+    private String orgCityId;
+    private String orgCity;
+    private String orgAreaId;
+    private String orgArea;
+    private String orgDetail;
+    private String orgTypeId;
+    private String orgVirtualFlag;
+    private String orgVirtualId;
 
 }

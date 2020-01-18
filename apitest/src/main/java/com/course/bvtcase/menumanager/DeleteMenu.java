@@ -21,6 +21,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/13 13:37
+ * @author qym
  */
 public class DeleteMenu {
     @BeforeMethod(
@@ -38,13 +39,13 @@ public class DeleteMenu {
         URIBuilder builder = new URIBuilder(TestConfig.deleteMenu);
         System.out.println(builder);
         String menuId = TokenFile.readFile("E:\\Data\\menuId.txt");
-        String newmenuId = menuId.replaceAll("[\\t\\n\\r\\s]","");
-        builder.addParameter("menuId",newmenuId);
+        String newMenuId = menuId.replaceAll("[\\t\\n\\r\\s]","");
+        builder.addParameter("menuId",newMenuId);
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");

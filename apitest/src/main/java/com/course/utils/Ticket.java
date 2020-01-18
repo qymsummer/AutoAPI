@@ -15,6 +15,7 @@ import java.io.IOException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 
 public class Ticket {
@@ -23,15 +24,15 @@ public class Ticket {
         TestConfig.ticketurl = ConfigFile.getUrl(InterfaceName.GETTICKET);
     }
     @Test
-    public void  loginCase2() throws IOException {
+    public void  loginCase() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.ticketurl);
         System.out.println(httpPost);
         HttpResponse response = TestConfig.client.execute(httpPost);
-        String getticket;
-        getticket = EntityUtils.toString(response.getEntity(), "utf-8");
-        JSONObject resultjson = new JSONObject(getticket);
-        JSONObject ticketlist = resultjson.getJSONObject("data");
-        String ticket = (String) ticketlist.get("ticket");
+        String getTicket;
+        getTicket = EntityUtils.toString(response.getEntity(), "utf-8");
+        JSONObject jsonObject = new JSONObject(getTicket);
+        JSONObject ticketList = jsonObject.getJSONObject("data");
+        String ticket = (String) ticketList.get("ticket");
         System.out.println(ticket);
 
     }

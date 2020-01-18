@@ -2,6 +2,9 @@ package com.course.utils;
 
 import java.util.Random;
 
+/**
+ * @author qym
+ */
 public class GetName {
     public static String getRandomChar(int length) {
         char[] chr = {'张','王','赵','刘','聂','尚','贾','李','胡','樊','吴','诸','关','闫'};

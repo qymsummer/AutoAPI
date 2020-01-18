@@ -1,9 +1,8 @@
-package com.course.bvtcase.rolemanager;
+package com.course.bvtcase.organizationtree;
 
 import com.course.config.TestConfig;
 import com.course.model.InterfaceName;
 import com.course.utils.ConfigFile;
-import com.course.utils.GetRandom;
 import com.course.utils.TokenFile;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -19,47 +18,39 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 
 /**
- * Description ApiAutoTest
- * Create by qym on 2020/1/9 17:16
+ * @Description ApiAutoTest
+ * @Date 2020/1/17 15:52
+ * @Author qym
  */
-public class UpdataRole {
+public class SelectOrganizationTree {
     @BeforeMethod(
-            description = "角色修改"
+            description = "机构树查询"
     )
 
     public void beforeMethod() {
-        TestConfig.addRoleOrUpdate = ConfigFile.getUrl(InterfaceName.ADDROLEORUPDATE);
+        TestConfig.selectOrganizationTree = ConfigFile.getUrl(InterfaceName.SELECTORGANIZATIONTREE);
     }
     @AfterMethod
     public void afterMethod(){
-
     }
-
-    @Test(groups = "UpdataRole",description = "角色修改")
-    public void updataRole() throws URISyntaxException, IOException, InterruptedException {
+    @Test(groups = "selectOrganizationTree",description = "机构树查询")
+    public void selectOrganizationTree() throws URISyntaxException, IOException, InterruptedException {
         Thread.sleep(100);
-        URIBuilder builder = new URIBuilder(TestConfig.addRoleOrUpdate);
+        URIBuilder builder = new URIBuilder(TestConfig.selectOrganizationTree);
         System.out.println(builder);
-        String roleID = TokenFile.readFile("E:\\Data\\RoleId.txt");
-        String random= GetRandom.getRandomChar(5);
-        String roleName= "修改角色"+random;
-        System.out.println(roleName);
-        builder.addParameter("roleName",roleName);
-        builder.addParameter("dataScope","2");
-        builder.addParameter("orgIds","");
-        builder.addParameter("remark","修改描述信息");
-        builder.addParameter("userType","0");
-        builder.addParameter("parentId","33");
-        builder.addParameter("roleId",roleID);
+        String organizationName = TokenFile.readFile("E:\\Data\\organizationName.txt");
+        String newOrganizationName = organizationName.replaceAll("[\\t\\n\\r\\s]","");
+        builder.addParameter("organizationName",newOrganizationName);
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
+        System.out.println(response);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        //System.out.println(result);
+        System.out.println(result);
         JSONObject resultJson = new JSONObject(result);
         String  success = (String) resultJson.get("msg");
         Assert.assertEquals("成功",success);

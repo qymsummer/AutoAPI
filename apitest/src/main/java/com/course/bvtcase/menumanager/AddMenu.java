@@ -21,6 +21,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/13 10:30
+ * @author qym
  */
 public class AddMenu {
     @BeforeMethod(
@@ -49,8 +50,8 @@ public class AddMenu {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");

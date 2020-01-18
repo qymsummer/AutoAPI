@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:34
+ * @author qym
  */
 public class FindOrgProductAuth {
     @BeforeMethod(
@@ -42,7 +43,6 @@ public class FindOrgProductAuth {
         Thread.sleep(100);
         URIBuilder builder = new URIBuilder(TestConfig.findOrgProductAuth);
         String organizationName = TokenFile.readFile("E:\\Data\\organizationName.txt");
-        //String newOrgTyeName = organizationName.replaceAll("[\\t\\n\\r\\s]","");
         builder.addParameter("pageNo","1");
         builder.addParameter("pageSize","10");
         builder.addParameter("orgSimpleName","");
@@ -51,8 +51,8 @@ public class FindOrgProductAuth {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");

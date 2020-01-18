@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/13 11:32
+ * @author qym
  */
 public class FindMenu {
     @BeforeMethod(
@@ -47,8 +48,8 @@ public class FindMenu {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
@@ -56,15 +57,16 @@ public class FindMenu {
         String  success = (String) resultJson.get("msg");
         Assert.assertEquals("成功",success);
         com.alibaba.fastjson.JSONObject jsonpObject = JSON.parseObject(result);
-        JSONArray arrs = jsonpObject.getJSONObject("data").getJSONArray("records");
+        JSONArray jsonArray = jsonpObject.getJSONObject("data").getJSONArray("records");
         System.out.println(result);
+        int code = (int) resultJson.get("code");
         int a =1;
-        if (!jsonpObject.get("code").equals(a)) {
-            for (int i = 0; i < arrs.size(); i++) {
-                com.alibaba.fastjson.JSONObject obj = arrs.getJSONObject(i);
-                String ID1 = obj.getString("menuId");
-                TokenFile.witerFile(ID1,"E:\\Data\\menuId.txt");
-                System.out.println(ID1);
+        if (code!=a) {
+            for (int i = 0; i < jsonArray.size(); i++) {
+                com.alibaba.fastjson.JSONObject obj = jsonArray.getJSONObject(i);
+                String id1 = obj.getString("menuId");
+                TokenFile.witerFile(id1,"E:\\Data\\menuId.txt");
+                System.out.println(id1);
             }
         }else {
         }

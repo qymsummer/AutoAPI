@@ -20,6 +20,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 13:42
+ * @author qym
  */
 public class UpdateAddFictitiousOrgProductAuth {
     @BeforeMethod(
@@ -45,12 +46,11 @@ public class UpdateAddFictitiousOrgProductAuth {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        //System.out.println(result);
         JSONObject resultJson = new JSONObject(result);
         String  success = (String) resultJson.get("msg");
         Assert.assertEquals("成功",success);

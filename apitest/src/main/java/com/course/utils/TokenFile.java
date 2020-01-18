@@ -5,11 +5,12 @@ import java.io.*;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 
 public class TokenFile {
 
-    public static void witerFile(String token,String path){
+    public static void witerFile(String token, String path){
         try{
             File file = new File(path);
             if (!file.exists()) {

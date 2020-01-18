@@ -18,6 +18,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 
 public class AddFictitiousOrgName {
@@ -37,7 +38,6 @@ public class AddFictitiousOrgName {
         URIBuilder builder = new URIBuilder(TestConfig.addOrgName);
         String orgTypeId = TokenFile.readFile("E:\\Data\\ID.txt");
         String orgVirtualId = TokenFile.readFile("E:\\Data\\OrgID.txt");
-        //System.out.println(orgTypeId);
         String organizationName = "英特集团股份有限公司虚拟";
         builder.addParameter("orgVirtualFlag","1");
         builder.addParameter("orgVirtualId",orgVirtualId);
@@ -57,8 +57,8 @@ public class AddFictitiousOrgName {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");

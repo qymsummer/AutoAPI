@@ -8,6 +8,7 @@ import java.io.IOException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/14 11:02
+ * @author qym
  */
 public class FileTest {
 
@@ -15,7 +16,7 @@ public class FileTest {
 
 
         String filePath = "E:\\RuanJian\\ID.txt";
-        byte[] buff = new byte[1024]; // 一次取出的字节大小
+        byte[] buff = new byte[1024];
         int i = 0;
         try (FileInputStream fis = new FileInputStream(filePath)) {
             // i的目的在于防止最后一次读取的字节小于b长度,否则会自动被填充0

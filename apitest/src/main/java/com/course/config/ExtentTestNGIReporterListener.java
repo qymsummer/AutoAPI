@@ -8,17 +8,17 @@ import com.aventstack.extentreports.model.TestAttribute;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-//import com.relevantcodes.extentreports.IReporter;
-//import com.relevantcodes.extentreports.Report;
-import com.relevantcodes.extentreports.model.Test;
 import org.testng.*;
 import org.testng.xml.XmlSuite;
 
 import java.io.File;
 import java.util.*;
 
+/**
+ * @author qym
+ */
 public class ExtentTestNGIReporterListener implements  IReporter {
-    //生成的路径以及文件名
+
     private static final String OUTPUT_FOLDER = "test-output/";
     private static final String FILE_NAME = "index.html";
 
@@ -96,9 +96,6 @@ public class ExtentTestNGIReporterListener implements  IReporter {
             }
 
         }
-//        for (String s : Reporter.getOutput()) {
-//            extent.setTestRunnerOutput(s);
-//        }
 
         extent.flush();
     }
@@ -167,10 +164,10 @@ public class ExtentTestNGIReporterListener implements  IReporter {
                     //作为子节点进行创建时，设置同父节点的标签一致，便于报告检索。
                     test = extenttest.createNode(name).assignCategory(categories);
                 }
-                //test.getModel().setDescription(description.toString());
-                //test = extent.createTest(result.getMethod().getMethodName());
-                for (String group : result.getMethod().getGroups())
+
+                for (String group : result.getMethod().getGroups()) {
                     test.assignCategory(group);
+                }
 
                 List<String> outputList = Reporter.getOutput(result);
                 for(String output:outputList){

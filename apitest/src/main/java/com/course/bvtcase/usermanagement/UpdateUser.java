@@ -19,6 +19,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/10 15:06
+ * @author qym
  */
 public class UpdateUser {
     @BeforeMethod(
@@ -59,13 +60,13 @@ public class UpdateUser {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
-        JSONObject resultJson = new JSONObject(result);
-        String  success = (String) resultJson.get("msg");
+        JSONObject jsonObject = new JSONObject(result);
+        String  success = (String) jsonObject.get("msg");
         Assert.assertEquals("成功",success);
         System.out.println(result);
         TokenFile.witerFile(account,"E:\\Data\\account.txt");

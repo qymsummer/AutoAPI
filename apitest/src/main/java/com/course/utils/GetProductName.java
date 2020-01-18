@@ -1,7 +1,9 @@
 package com.course.utils;
 
 import java.io.*;
-
+/**
+ * @author qym
+ */
 public class GetProductName {
     private static String path="C:\\Data\\ProductNamefile.txt";
     public static void witerProductName(String token){

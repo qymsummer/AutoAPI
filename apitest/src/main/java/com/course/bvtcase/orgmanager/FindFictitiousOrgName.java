@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 public class FindFictitiousOrgName {
     @BeforeMethod(
@@ -45,24 +46,26 @@ public class FindFictitiousOrgName {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
         System.out.println(result);
         JSONObject resultJson = new JSONObject(result);
         String  success = (String) resultJson.get("msg");
+        int code = (int) resultJson.get("code");
+        System.out.println(code);
         Assert.assertEquals("成功",success);
         com.alibaba.fastjson.JSONObject jsonpObject = JSON.parseObject(result);
         JSONArray arrs = jsonpObject.getJSONObject("data").getJSONArray("records");
         int a =1;
-        if (!jsonpObject.get("code").equals(a)) {
+        if (code!=a) {
             for (int i = 0; i < arrs.size(); i++) {
                 com.alibaba.fastjson.JSONObject obj = arrs.getJSONObject(i);
-                String ID1 = obj.getString("orgId");
-                TokenFile.witerFile(ID1,"E:\\DATA\\FictitiousorgId.txt");
-                System.out.println(ID1);
+                String id1 = obj.getString("orgId");
+                TokenFile.witerFile(id1,"E:\\DATA\\FictitiousorgId.txt");
+                System.out.println(id1);
             }
         }else {
         }

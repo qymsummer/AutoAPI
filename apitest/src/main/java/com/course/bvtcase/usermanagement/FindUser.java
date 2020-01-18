@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/10 14:58
+ * @author qym
  */
 public class FindUser {
     @BeforeMethod(
@@ -41,10 +42,10 @@ public class FindUser {
         Thread.sleep(100);
         URIBuilder builder = new URIBuilder(TestConfig.findUser);
         String account = TokenFile.readFile("E:\\Data\\account.txt");
-        String newaccount = account.replaceAll("[\\t\\n\\r\\s]","");
+        String newAccount = account.replaceAll("[\\t\\n\\r\\s]","");
         builder.addParameter("pageNo","1");
         builder.addParameter("pageSize","10");
-        builder.addParameter("account",newaccount);
+        builder.addParameter("account",newAccount);
         builder.addParameter("orgName","");
         builder.addParameter("userName","");
         builder.addParameter("roleNames","");
@@ -53,8 +54,8 @@ public class FindUser {
         HttpPost httpPost = new HttpPost(builder.build());
         String name="jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]","");
-        httpPost.setHeader(name,newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]","");
+        httpPost.setHeader(name,newValue);
         HttpResponse response = TestConfig.client.execute (httpPost);
         String result;
         result = EntityUtils.toString (response.getEntity(),"utf-8");
@@ -64,19 +65,20 @@ public class FindUser {
         com.alibaba.fastjson.JSONObject jsonpObject = JSON.parseObject(result);
         JSONArray arrs = jsonpObject.getJSONObject("data").getJSONArray("records");
         System.out.println(result);
+        int code = (int) resultJson.get("code");
         int a =1;
-        if (!jsonpObject.get("code").equals(a)) {
+        if (code!=a) {
             for (int i = 0; i < arrs.size(); i++) {
                 com.alibaba.fastjson.JSONObject obj = arrs.getJSONObject(i);
                 String id = obj.getString("userId");
                 String accountid = obj.getString("account");
+                String newAccountId = account.replaceAll("[\\t\\n\\r\\s]","");
                 TokenFile.witerFile(id,"E:\\Data\\userId.txt");
                 System.out.println(id);
-                TokenFile.witerFile(accountid,"E:\\Data\\accountid.txt");
-                System.out.println(accountid);
+                TokenFile.witerFile(newAccountId,"E:\\Data\\accountid.txt");
+                System.out.println(newAccountId);
             }
         }else {
         }
     }
-
 }

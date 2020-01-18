@@ -8,6 +8,9 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.io.Reader;
 
+/**
+ * @author qym
+ */
 public class DatabaseUtil {
     public static SqlSession getSqlSession() throws IOException {
         //获取配置资源文件

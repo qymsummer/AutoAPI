@@ -8,6 +8,7 @@ import java.util.Arrays;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/14 10:51
+ * @author qym
  */
 public class FileInputStream1 {
     private static final int SIZE = 4096;
@@ -24,16 +25,6 @@ public class FileInputStream1 {
         System.out.println(file);
         System.out.println("--------");
         System.out.println(fis);
-        /*
-        int len = 0;
-        byte[] buf = new byte[SIZE];
-        while((len=fis.read(buf))!=-1){
-            System.out.println(new String(buf,0,len));
-        }
-
-         */
-
-        //关资源
         fis.close();
     }
 }

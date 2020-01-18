@@ -34,6 +34,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/13 14:49
+ * @author qym
  */
 public class FileUpload {
     @BeforeMethod(

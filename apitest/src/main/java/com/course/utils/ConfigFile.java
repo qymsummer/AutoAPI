@@ -8,18 +8,18 @@ import java.util.ResourceBundle;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 
 public class ConfigFile {
 
     private static ResourceBundle bundle = ResourceBundle.getBundle("application", Locale.CHINA);
-    ;
 
-    //传进来的name，必须是InterfaceName类中枚举的接口名，
+
     public static String getUrl(InterfaceName name) {
         String address = bundle.getString("test.uri");
-        String uri = ""; //获取application.perperties中的uri
-        String testUrl;  //最终的测试地址，address+uri
+        String uri = "";
+        String testUrl;
 
         if (name == InterfaceName.LOGIN) {
             uri = bundle.getString("login.uri");
@@ -38,6 +38,9 @@ public class ConfigFile {
         }
         if (name == InterfaceName.FINDORGNAME) {
             uri = bundle.getString("findOrgName.uri");
+        }
+        if (name == InterfaceName.DELETEORG) {
+            uri = bundle.getString("deleteOrg.uri");
         }
         if (name == InterfaceName.ADDORGPRODUCTAUTH) {
             uri = bundle.getString("updatePlatform.uri");
@@ -81,9 +84,21 @@ public class ConfigFile {
         if (name == InterfaceName.ADDFILEINFO) {
             uri = bundle.getString("addFileInfo.uri");
         }
-
-
-
+        if (name == InterfaceName.SELECTORGANIZATIONTREE) {
+            uri = bundle.getString("selectOrganizationTree.uri");
+        }
+        if (name == InterfaceName.FINDLOG) {
+            uri = bundle.getString("findLog.uri");
+        }
+        if (name == InterfaceName.DELETEROLE) {
+            uri = bundle.getString("deleteRole.uri");
+        }
+        if (name == InterfaceName.DELETEGRAYORG) {
+            uri = bundle.getString("deleteGrayOrg.uri");
+        }
+        if (name == InterfaceName.DELETEORGPRODUCTAUTH) {
+            uri = bundle.getString("deletePlatform.uri");
+        }
         testUrl = address + uri;
         return testUrl;
     }

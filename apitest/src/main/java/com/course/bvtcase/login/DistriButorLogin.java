@@ -24,6 +24,7 @@ import java.util.List;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/9 11:20
+ * @author qym
  */
 
 public class DistriButorLogin {
@@ -40,15 +41,15 @@ public class DistriButorLogin {
     @AfterTest
     public void afterTest(){
     }
-    //获取到ticket
+
     public static String getTicket() throws IOException {
         HttpPost httpPost = new HttpPost(TestConfig.ticketurl);
         HttpResponse response = TestConfig.client.execute(httpPost);
-        String getticket;
-        getticket = EntityUtils.toString(response.getEntity(), "utf-8");
-        JSONObject resultjson = new JSONObject(getticket);
-        JSONObject ticketlist = resultjson.getJSONObject("data");
-        String ticket = (String) ticketlist.get("ticket");
+        String getTicket;
+        getTicket = EntityUtils.toString(response.getEntity(), "utf-8");
+        JSONObject resultJson = new JSONObject(getTicket);
+        JSONObject ticketList = resultJson.getJSONObject("data");
+        String ticket = (String) ticketList.get("ticket");
         return ticket;
     }
     @Test(groups = "loginCaseDb", description = "用户登录成功")
@@ -81,8 +82,8 @@ public class DistriButorLogin {
         String success = (String) resultJson.get("msg");
         //判断
         Assert.assertEquals("成功",success);
-        JSONObject ticketlist = resultJson.getJSONObject("data");
-        String token = (String) ticketlist.get("jwtToken");
+        JSONObject jsonObject = resultJson.getJSONObject("data");
+        String token = (String) jsonObject.get("jwtToken");
         return token;
     }
 }

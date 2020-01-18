@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 /**
  * Description ApiAutoTest
  * Create by qym on 2020/1/10 11:47
+ * @author qym
  */
 public class FindGrayScaleOrg {
     @BeforeMethod(
@@ -44,35 +45,35 @@ public class FindGrayScaleOrg {
         URIBuilder builder = new URIBuilder(TestConfig.findGrayOrg);
         System.out.println(builder);
         String organizationName = TokenFile.readFile("E:\\Data\\organizationFictitiouName.txt");
-        String newrorganizationName = organizationName.replaceAll("[\\t\\n\\r\\s]","");
+        String newOrganizationName = organizationName.replaceAll("[\\t\\n\\r\\s]","");
         builder.addParameter("pageNo", "1");
         builder.addParameter("pageSize", "10");
         builder.addParameter("orgSimpleName", "");
-        builder.addParameter("organizationName",newrorganizationName);
+        builder.addParameter("organizationName",newOrganizationName);
         builder.addParameter("platformId","");
         HttpPost httpPost = new HttpPost(builder.build());
         String name = "jwtToken";
         String value = TokenFile.readFile("E:\\Data\\Tokenfile.txt");
-        String newvalue = value.replaceAll("[\\t\\n\\r\\s]", "");
-        httpPost.setHeader(name, newvalue);
+        String newValue = value.replaceAll("[\\t\\n\\r\\s]", "");
+        httpPost.setHeader(name, newValue);
         HttpResponse response = TestConfig.client.execute(httpPost);
         String result;
         result = EntityUtils.toString(response.getEntity(), "utf-8");
-        //System.out.println(result);
         JSONObject resultJson = new JSONObject(result);
         String success = (String) resultJson.get("msg");
+
         Assert.assertEquals("成功", success);
         com.alibaba.fastjson.JSONObject jsonpObject = JSON.parseObject(result);
-        JSONArray arrs = jsonpObject.getJSONObject("data").getJSONArray("records");
+        JSONArray jsonArray = jsonpObject.getJSONObject("data").getJSONArray("records");
         System.out.println(result);
-
+        int code = (int) resultJson.get("code");
         int a =1;
-        if (!jsonpObject.get("code").equals(a)) {
-            for (int i = 0; i < arrs.size(); i++) {
-                com.alibaba.fastjson.JSONObject obj = arrs.getJSONObject(i);
-                String ID1 = obj.getString("grayId");
-                TokenFile.witerFile(ID1,"E:\\Data\\GrayId.txt");
-                System.out.println(ID1);
+        if (code!=a) {
+            for (int i = 0; i < jsonArray.size(); i++) {
+                com.alibaba.fastjson.JSONObject obj = jsonArray.getJSONObject(i);
+                String id1 = obj.getString("grayId");
+                TokenFile.witerFile(id1,"E:\\Data\\GrayId.txt");
+                System.out.println(id1);
             }
         }else {
         }

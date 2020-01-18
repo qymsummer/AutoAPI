@@ -21,7 +21,7 @@
             </class>
             <class name="com.course.bvtcase.orgsort.UpdataOr">
                 <methods>
-                    <include name="UpdateOr"/>
+                    <include name="updateOr"/>
                 </methods>
             </class>
             <class name="com.course.bvtcase.orgmanager.AddOrgName">
@@ -104,9 +104,9 @@
                     <include name="findRole"/>
                 </methods>
             </class>
-            <class name="com.course.bvtcase.rolemanager.UpdataRole">
+            <class name="com.course.bvtcase.rolemanager.UpDataRole">
                 <methods>
-                    <include name="updataRole"/>
+                    <include name="upDataRole"/>
                 </methods>
             </class>
             <class name="com.course.bvtcase.rolemanager.AddMenu">
@@ -154,6 +154,28 @@
                     <include name="deleteMenu"/>
                 </methods>
             </class>
+            <class name="com.course.bvtcase.organizationtree.SelectOrganizationTree">
+                <methods>
+                    <include name="selectOrganizationTree"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.logmanage.FindLog">
+                <methods>
+                    <include name="findLog"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.usermanagement.DeleteUser">
+                <methods>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="com.course.bvtcase.rolemanager.DeleteRole">
+                <methods>
+                    <include name="deleteRole"/>
+                </methods>
+            </class>
+
+
         </classes>
     </test>
 
